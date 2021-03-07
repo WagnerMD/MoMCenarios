@@ -1,0 +1,358 @@
+.,English
+TokenEnzoAlberto.button1,Continuar
+EventLagoColarThomas.text,De quem poderia ser este objeto? Você encontra um colar em formato de Cruz. Receba o Item Cruz Sagrada, em seguida descarte o Token do tabuleiro. Este é um item especial, você não pode deixá-lo e nem usá-lo como se fosse o Item Cruz Sagrada comum. Guarde-o separadamente.
+EventLagoCorpoExaminadoA.text,Muito provavelmente este buraco foi causado por um tiro e certamente seria o motivo de sua morte. Você encontrou uma pista conclusiva sobre a morte de Thomas. Por hora, o melhor a fazer é manter o corpo em segredo, pelo menos por enquanto.\nRemova o token de interação do tabuleiro.
+EventLagoCriancinhasRemover.text,Por um segundo, quando você desvia o olhar, as crianças a beira o lago somem sem deixar vestigios. Remova o marcador de Pessoa do tabuleiro.
+EventEnzoAB.text,Sentado em um dos bancos da estação, um homem moreno lê um livro em voz alta. Ele está usando vestimentas básicas e parece ter um sotaque estrangeiro:\n\n''-Boa noite, vocês assim como eu são de outra cidade não é? Em que posso ajudá-los amigos?''
+EventEnzoAB.button1,{action} O que você sabe sobre a cidade?
+EventEnzoAB.button2,{action} O que você sabe sobre as pessoas daqui?
+EventEnzoA.button1,{action} O que você sabe sobre a cidade?
+EventEnzoA.text,Vocês gostariam de saber mais alguma coisa?
+EventEnzoB.button1,{action} O que você sabe sobre as pessoas daqui?
+EventEnzoB.text,Vocês gostariam de saber mais alguma coisa?
+EventEnzoA1.text,''Otima pergunta. Eu tenho analisado todo este lugar nos ultimos dias, pois vim de longe para conhecer aqui. Parece que o comercio no Porto das Docas tem aumentado em demasia no ultimo ano. Eu fui pessoalmente dar uma olhada no lugar, pensei que pudessem estar trazendo produtos ilegais atravez do mar. Tudo que achei foi aquele detetive bebado caído sobre as caixas.''\n\nReceba 1 pista. 
+EventEnzoA1.button1,Continue
+EventEnzoB1.text,''Não tive a oportunidade de conversar com muitas pessoas daqui ainda. Mas me parece que são muito receptivos por aqui na cidade.\nMe falaram sobre uma familia muito rica, que inclusive, estará dando uma festa amanhã pela noite. Mal posso esperar, acredita que eu fui um dos convidados!?''
+EventEnzoB1.button1,Continue
+EventEnzoAB1.text,''Estou lendo por tanto tempo, devem ter se passado horas. Vou caminhar um pouco pela cidade pessoal. Até mais.''\n\nRetire o Token de Enzo Alberto do tabuleiro.
+EventEnzoAB1.button1,Continue
+TokenRuaEsquerdaLatadeLixoEscutar.button1,{action} Investigar
+TokenLagoCriancinhas.text,Duas criancinhas estão brincando sozinhas perto deste lago.
+TokenDepositoRitual.text,Estas velas estão no fim da vida e parecem estar sujas de sangue.
+EventLagoEnzoAparecer.text,Enzo sai caminhando da estação e para em frente ao lago no centro da cidade. Coloque o marcador de Enzo Alberto como indicado.
+EventLagoEnzoAparecer.button1,Continue
+TokenLagoEnzoAlberto.button1,Button1
+EventLagoEnzoAB.text,O estrangeiro está sentado em um banco fitando as aguas turvas do lago a frente.\n\n''Opa, são vocês de novo. Aconteceu alguma coisa?''
+EventLagoEnzoAB.button1,{action} Nada.Por que você sentou aqui?
+EventLagoEnzoAB.button2,{action} Gostaria de fazer algumas perguntas sobre você.
+EventLagoEnzoA.text,''Eu já estou a caminho do hotel, mas jurava ter visto algo no lago. Deve ser tantas horas de leitura, já estou vendo coisas. Bem, vou indo gente, uma boa noite.''\n\nEnzo Alberto se levanta do banco e sai andando até desaparecer em meio a neblina. Remova o marcador de Enzo do tabuleiro.
+EventLagoEnzoA.button1,Continue
+EventLagoCorpoAparecer.button1,Continue
+EventLagoEnzoB.text,''Vocês estão me investigando por um acaso? Eu soube do desaparecimento do Thomas recentemente, no minimo vocês acham que eu sou um suspeito, pois não sou da cidade. Boa sorte ao tentarem encontrar provas contra mim.''\n\nEnzo sai em direção ao hotel e some em meio a neblina. Remova o marcado de pessoa do tabuleiro.
+EventLagoCorpoAparecer.text,Poderia ser apenas alucinações depois de tantas horas de leitura? De toda forma, vocês acreditam que investigar seria o mais adequado.\n\nColoque o marcador de interação como indicado.
+EventLagoEnzoB.button1,Continue
+TokenLagoCorpo.button1,{action} Tentar Puxar
+EventLojaCentro.text,A loja está tomada por prateleiras e vidracais em todo o canto. Remova o Marcador de Porta como indicado.\nEsta moça que está na loja é Andy Stones, esposa de Franklim Stones.
+EventEsposaABC.button1,{action} Investigadores!?
+EventEsposaABC.button2,{action} Por que estavam dicutindo?
+EventEsposaABC.text,Uma mulher alta com um vestido azul e elegante, para em frente a uma vitrine olhando os objetos da loja.\n\n''Boa noite, Investigadores. Em que posso ajudá-los?''
+EventEsposaABC.button3,{action} O que faz aqui nesta loja?
+EventEsposaA1.button1,Continue
+EventEsposaB1.text,''Isso não é da sua conta. Se quer tanto saber por que não pergunta pra ele?''\n\nA mulher os ignora e continua olhando o armário a sua frente.
+EventEsposaB1.button1,Continue
+EventEsposaC1.text,''O seu papel é procurar o sujeito desaparecido Investigador, não me fazer perder tempo com perguntas ridiculas''.\nA mulher os ignora e continua a olhar os objetos.
+EventEsposaC1.button1,Continue
+EventEsposa0.text,''Se me dão licença, quero continuar apreciando essas lindas antiguidades.''
+EventEsposa0.button1,Continue
+TokenVendedor.button1,Continuar
+EventVendedorAB.text,''Boa noite Senhores, somos a casa Luna, especialista em antiguidades. Em que posso ajudá-los?''
+EventVendedorAB.button1,{action} Que tipo de artigos vocês vendem?
+EventVendedorAB.button2,{action} Por que vocês estavam discutindo?
+EventVendedorA1.button1,Continue
+EventVendedorB1sucesso.text,''A familia Marsh é nossa melhor cliente. A Senhora Andy Marsh queria exclusividade em alguns artigos da loja, mas infelizmente isso não é possivel. Tenho certeza que ela irá entender.''\n\nReceba 1 Pista.
+EventVendedorA1.text,''Estas antiguidades são unicas. Vendemos aqui todo tipo de objeto ou reliquias que foram de familias importantes ao longo da historia. Espero que gostem''
+EventVendedorA.text,''Boa noite Senhores, somos a casa Luna, especialista em antiguidades. Em que posso ajudá-los?''
+EventVendedorA.button1,{action} Que tipo de artigos vocês vendem?
+EventVendedorB.text,''Boa noite Senhores, somos a casa Luna, especialista em antiguidades. Em que posso ajudá-los?''
+EventVendedorB.button1,{action} Por que vocês estavam discutindo?
+EventVendedor0.text,''Preciso atender os clientes agora, falamos mais tarde...''
+EventVendedor0.button1,Continue
+EventVendedorS0.text,''Me desculpem, não posso responder em nome da loja. Se querem falar deste assunto devem marcar um horario com o proprietário.''
+EventVendedorS0.button1,Continue
+TokenCaixasObjetosAntigos.text,Um caixote amarrado com cordas foi colocado de canto entre outras caixas.
+TokenCaixasObjetosAntigos.button1,{action} Examinar
+EventCaixasObjetosAntigosA.text,Você tenta forçar a tampa para abrí-la. Teste {strength}.
+EventCaixasObjetosAntigosA.button1,Continue
+EventCaixasObjetosAntigosA.button2,Button2
+EventCaixasObjetosAntigosBfalha.text,Você tenta mas não consegue abrir a caixa.
+EventCaixasObjetosAntigosBfalha.button1,Continue
+EventCaixasObjetosAntigosBsucesso.text,Você força o canto da tampa e consegue arrobar o caixote. Dentro dele, escondido entre diversos panos e tecido você encontra algo excentrico. Receba o Item especial Estatua Grotesca e descarte o marcador de interação do tabuleiro.\n\nReceba 1 Pista.
+EventCaixasObjetosAntigosBsucesso.button1,Continue
+EventCaixasObjetosAntigosC.text,A Estatua Grotesca foi escondida nesta caixa. Provavelmente estão contrabandeando estes itens pelo mar e trazendo escondido para a cidade. Talvez você consiga alguma informação na loja de artigos do centro da cidade.
+EventCaixasObjetosAntigosC.button1,Continue
+EventVendedorS.text,''Boa noite Senhores, somos a casa Luna, especialista em antiguidades. Em que posso ajudá-los?''
+EventVendedorS.button1,{action} Vocês trazem estes objetos escondidos pelo mar?
+EventVendedorS1.text,''O que? Não é legal acusar uma loja historica da cidade no seu primeiro dia por aqui. Eu sou apenas o vendedor, não sei de onde trazem a maioria dos objetos.''
+EventVendedorS1.button1,Continue
+EventVendedorS2.text,''Se você quer saber, Thomas comprou um colar aqui há algumas semanas. Isso é a unica coisa que sei e talvez possa ajudá-los.''\nReceba 1 Pista.
+EventVendedorS2.button1,Continue
+TokenCaixasSupostaArma.text,Em meio as caixas na penumbra, você nota um objeto brilhando a beira do deck.
+TokenCaixasSupostaArma.button1,{action} Examinar
+EventCRIMEArmaDetetive.text,Ao pegar em mãos, você percebe que este Revolver pertence ao Detetive Blake e possui a sua marcação. Receba o Item Comum Revolver.38 e remova o marcador de interação do tabuleiro.
+EventCRIMEArmaDetetive.button1,Continue
+EventCrimeArmaDetetive2.text,ATENÇÃO. Este item PODE ser usado pelo Investigador que o possui. Mas encontrá-lo aqui pode ser uma pista sobre a Investigação do caso Thomas.
+EventCrimeArmaDetetive2.button1,Continue
+EventSupostaArmaItem.text,Você encontra em meio estas caixas uma garrafa de bebida. Remova o marcador de interação do tabuleiro e receba o item comum Whiskey.\nEssa pode ser uma pista sobre o caso Thomas.
+EventSupostaArmaItem.button1,Continue
+TokenDetetive.button1,Continuar
+EventDetetiveABC.text,Um homem aparece em meio a neblina cambaleante. Ele se escora nas caixas de carga do Deck e lhe dirige a palavra:\n''O que vocês estão olhando!? Vão investigar o caso de vocês, já que foram contratados pelo prefeito.''
+EventDetetiveABC.button1,{action} Você está bebado!?
+EventDetetiveABC.button2,{action} Por que o prefeito tirou você do caso?
+EventDetetiveABC.button3,{action} É verdade que você tinha um caso com a Jennifer?
+EventDetetiveA1.text,''Bebado, eu!?? Você só pode estar brincando comigo''\nO Homem tenta não se escorar nas caixas, mas cambeleia e se agacha até o chão para não cair.\n''Anda logo, sumam daqui! Ric...''
+EventDetetiveA1.button1,Continue
+EventDetetiveB1.text,''Ric...Aquele traidor? Ele quis me convencer que a cidade é pequena....ric... Que por conhecer a todos, eu poderia me perder no julgamento. Mas eu sei que ele desconfia de mim...ric Ele acha que eu sou um suspeito.''
+EventDetetiveB1.button1,Continue
+EventDetetiveC.text,''Sim, até ela me deixar, aquela... ric... Isso faz de mim um suspeito agora!?? Sumam daqui!! Ric....''
+EventDetetiveC.button1,Continue
+EventDetetive0.text,''Sumam daqui....ric... não vou mais falar nada para vocês!!''
+EventDetetive0.button1,Continue
+EventDetetiveAB.text,Um homem aparece em meio a neblina cambaleante. Ele se escora nas caixas de carga do Deck e lhe dirige a palavra:\n''O que vocês estão olhando!? Vão investigar o caso de vocês, já que foram contratados pelo prefeito.''
+EventDetetiveAB.button1,{action} Você está bebado!?
+EventDetetiveAB.button2,{action} Por que o prefeito tirou você do caso?
+EventInicio3B.text,Os principais suspeitos que o prefeito revelou a você são:\nJennifer, que era namorada da vítima.\nLeonidas, o detetive da cidade.\nEnzo Alberto, um turista que chegou recentemente.\nOs membros da familia Stones, que são:\nFranklim, o pai\nAndy, a mãe\nWilliam, o filho.
+EventInicio3B.button1,Continue
+EventInicio3C.text,Os principais suspeitos que o prefeito revelou a você são:\nJennifer, que era namorada da vítima.\nLeonidas, o detetive da cidade.\nEnzo Alberto, um turista que chegou recentemente.\nOs membros da familia Stones, que são:\nFranklim, o pai\nAndy, a mãe\nWilliam, o filho.
+EventInicio3C.button1,Continue
+EventEstacaoArmaPegar.text,Você encontra algo que julga util. Receba o item Bagagem Robusta e remova o Marcador de interação.
+EventLagoThomasMortoA2.button1,Continue
+EventLagoCorpoExaminadoB.text,Uma criatura mistica nao teria dicernimento de esconder um corpo e afundá-lo no lago. Certamente um cultista esta invocando e controlando estas criaturas. De qualquer forma, você entende que é melhor manter o corpo em segredo, pelo menos por enquanto, para que a reação das pessoas nao interfiram na sua investigação.\n\nRemova o token de exploração do tabuleiro.
+EventLagoCorpoExaminadoA.button1,Continue
+EventLagoThomasMortoA2.text,Você corta as cordas que amarravam e desenrola o corpo de um homem morto. Mesmo estando com o rosto deformado de certa forma, as caracteristicas são identicas as que você viu nas fotos de Thomas. Por sorte, as ruas da cidade andam quietas ultimamente e a neblina a esta hora lhe dá sossego para examinar cuidadosamente. O seu cranio esta ferido e possui um buraco identico ao de uma bala de revolver.\n\n Você encontrou o corpo de Thomas Nilmann.\nReceba 2 Pistas.
+EventSeloDoCulto.text,Atrás do Selo, estão gravadas as seguintes letras: 'F' 'S'.
+EventCaixaEnigmaticaResolvidaF.text,Você consegue destrancar as travas da caixa e encontra algo que julga ser util para sua investigação. Receba o Item especial Selo do Culto. Ao tempo que você guarda consigo, vozes o invadem em tons de ameaça e desespero. Forças indevidas foram desafiadas e isso não é bom pressagio. Sofra 2 horrores.\nO Investigador que estiver com o Item Selo do Culto pode interagir com ele usando o aplicativo.
+EventDialogoTuristaA.text,''Olha, não quero me envolver nesta investigação. Mas uma coisa eu posso dizer. Nos ultimos dois dias, o Detetive Blake tem vindo falar com Jennifer aqui no saguão, visivelmente bebado. Pelo que soube, os dois tinham um caso antigo e foram amantes. Por favor, não digam que lhes contei nada.''\n\nO Senhor se vira e continua a empilhar os papeis em cima da mesa.
+EventCaixaEnigmatica1.text,Você tenta destrancar o objeto manuseando sua fechadura. Resolva o Quebra-Cabeça utilizando {agility}.
+EventDepositoRitual.text,Ao olhar melhor, você percebe os nomes da familia Stones gravados na parede em sangue. O ritual já foi realizado a um certo tempo, seria impreciso dizer exatamente sobre o que se trata, mas com toda certeza envolve a familia de Franklim e Andy.\n\nReceba 1 Pista e descarte este marcador de interação.
+EventRuaEsquerdaEscutar.text,Ao se aproximar do cesto caído, você observa pela janela do Restaurante o Franklim sentado com seu filho William na mesa. Teste {observation}.
+EventRuaEsquerdaEscutarFalha.text,Ao se aproximar você acaba pisando nas sacolas de lixo e fazendo barulho. Talvez seja melhor você não se arriscar e ser pego escutando a conversa de outras pessoas. \nRemova o marcador de interação.
+EventRuaEsquerdaEscutarSucesso.text,Você consegue se aproximar com cuidado e escuta trechos da conversa.\nFranklim diz: ''William, amanha durante a cerimonia preciso que você se comporte na frente das outras pessoas. Eu fiquei sabendo que o prefeito contratou mais um grupo de Detetives para investigar a cidade, não podemos ficar atraindo a atenção deles, você me ouviu?''\n\nPor que Frankilm não quer chamar a atenção e o que William faria para nao se comportar na cerimonia da familia??\n\nReceba 1 Pista e remova este marcador de interação.
+EventRestauranteEntrar.text,Dois homens olham para a porta assim que você entra. Coloque os marcadores de Pessoas conforme indicado. Estes são Frankiln e William Stones.
+TokenAndy.button1,Continuar
+TokenFranklin.button1,Continuar
+EventFrankAB.text,''Olha filho, nossos mais novos convidados de amanhã! Prazer em conhecê-los pessoalmente Investigadores, em que posso ajudá-los!?''
+EventFrankAB.button1,{action} O que você pensa sobre o desaparecimento de Thomas?
+EventFrankAB.button2,{action} Por que nos convidou para a sua festa?
+EventFrankA1.text,''Nesta cidade todos nos conhecemos, pelo menos um pouco. O Thomas era um bom rapaz, mas preciso confessar, ja havia semanas que ele andava estranho. Sinceramente, acredito que ele fugiu da cidade por conta própria.''\nReceba 1 Pista.
+EventFrankA1.button1,Continue
+EventFrankB1.text,''Todo ano eu faço um jantar especial para as pessoas importantes da cidade. Este ano com o desaparecimento de Thomas bem proximo da data, alguns se recusaram a ir. O prefeito me insistiu para que convidassem vocês para que pudessem conhecer todos por lá. Vai ser divertido!''\n\nReceba 1 Pista.
+EventFrankB1.button1,Continue
+EventFrankA.button1,{action} O que você pensa sobre o desaparecimento de Thomas?
+EventFrankA.text,''Então Investigadores, gostariam de saber mais alguma coisa!?''
+EventFrankB.button1,{action} Por que nos convidou para a sua festa?
+EventFrankB.text,''Então Investigadores, gostariam de saber mais alguma coisa!?''
+EventFrank0.text,''Agora preciso terminar o Jantar com o meu filho William, já esta tarde. Amanhã na cerimonia conversamos mais.''
+EventFrank0.button1,Continue
+TokenWilliamStones.button1,Continuar
+EventWilliamA.text,''Boa noite.'' O jovem se dirige a você enquanto fica acendendo um isqueiro em mãos.
+EventWilliamA.button1,{action} Por que você fica brincando com este isqueiro?
+EventWilliamA1.text,Você nota que o jantar do rapaz ainda esta inteiro no prato. Ele não desvia o olhar das chamas para ver você:\n''Vocês vão ir amanha na nossa festa!? Vai ser divertido.''\nFranklin olha para vocês e para William com sinal de desaprovação e continua a sua refeição.\nReceba 1 Pista.
+EventWilliamA1.button1,Continue
+EventWilliam0.text,''Boa noite, vou terminar o meu jantar agora.'' Fala o Jovem acendendo o isqueiro da sua mão.
+EventWilliam0.button1,Continue
+EventEscuridaoDocas.text,Neste local não há iluminação. Coloque um marcador de escuridão como indicado.
+EventEscuridaoDocas.button1,Continue
+EventPortaDocasSucesso.text,Você usa um esforço sobrenatural e consegue abrir o galpão fechado. A porta de ferro range ao se mover e inumeros morcegos passam por você voando para a rua. O odor de peixe e de mofo do lugar é nauseante e inevitável.\nReceba 1 Dano voltado para baixo e 1 Horror voltado para baixo negados por ({will}).\nEm seguida, remova o marcador de porta do tabuleiro.
+EventInicio2.text,Vocês terão algumas horas para investigar esta parte da cidade e levantar o maximo de pistas que puderem. O objetivo é descobrir o que aconteceu com Thomas e quem foi o culpado pelo seu desaparecimento. 
+EventInicio3A.text,Os principais suspeitos que o prefeito revelou a você são:\nJennifer, que era namorada da vítima.\nLeonidas, o detetive da cidade.\nEnzo Alberto, um turista que chegou recentemente.\nOs membros da familia Stones, que são:\nFranklim, o pai\nAndy, a mãe\nWilliam, o filho.
+EventInicio.text,Ao sair do Gabinete do Prefeito, vocês notam uma neblina densa sobre toda a cidade durante a noite.\nAmanhã haverá uma cerimônia na mansão da familia Stones, será o momento perfeito para você desmascarar o culpado por trás deste caso, já que todos os suspeitos vão estar presentes.
+EventInicio6.text,Há um Rapaz lendo um livro sentado no banco da estação. Este é Enzo Alberto.
+EventInicio6.button1,Continue
+EventInicio8.text,Algumas crianças brincam a beira de um lago sozinhas. Coloque o marcador de Pessoa como indicado. Em seguida coloque os 2 marcadores de avistamento.
+EventInicio8.button1,Continue
+EventInicio9.text,Você pode começar a investigação pela estação. Coloque os 3 marcadores de interação como indicado. Em seguida coloque um marcador de avistamento abaixo.
+EventInicio9.button1,Continue
+EventInicio10.text,FASE DE INVESTIGAÇÃO!
+EventInicio10.button1,Continue
+EventInicio7.text,Adicione a Porta e o marcador de avistamento como indicado.
+EventINTERLUDIO.text,Bate 19:00hrs do dia seguinte e vocês se dirigem a mansão dos Stones, onde acontecerá a cerimonia de festa da cidade. Após serem recebidos cordialmente, o mordomo leva os Investigadores até a Sala de Estar no segundo andar da Mansão.\n\n''É rotina trazer as visitas para a Sala de Estar até chegarem todos os convidados. Mas sintam-se a vontade para andar pela residencia. Temos um SPA, sala de bilhar e alguns aperitivos na cozinha também. Falta apenas 1 hora para nos encontrarmos aqui e começarmos a festa. Até mais''
+EventINTERLUDIO.button1,Continue
+EventINTERLUDIO2.text,Coloque os Investigadores no local indicado.
+EventINTERLUDIO2.button1,Continue
+EventINTERLUDIO3.text,Coloque 2 marcadores de porta como indicado.
+EventINTERLUDIO3.button1,Continue
+EventINTERLUDIO5.button1,Continue
+Token2PortaSala.text,Esta porta leva até o corredor do segundo andar.
+Token2PortaSala.button1,{action} Abrir
+Event2CorredorExplorar.text,Você se depara com um corredor extenso. Coloque os Tiles {MAD20} Corredor e {MAD20} Banheiro como indicado, em seguida substitua o marcador de porta que leva até a Sala.
+Event2CorredorExplorar.button1,Continue
+Event2CorredorExplorar2.text,Coloque os marcadores de porta como indicado.
+Event2CorredorExplorar2.button1,Continue
+Token2Avistamento.button1,Continue
+Token2PortaPatio.text,Uma porta robusta de metal esta trancada. Ela possui uma fileira com simbolos no centro.
+Event2CorredorExplorar3.text,Coloque um marcador de parede como indicado.
+Event2CorredorExplorar3.button1,Continue
+Event2CorredorExplorar4.text,Em cima de uma escrivaninha tem diversos papeis espalhados. Coloque o marcador de interação como indicado.
+Event2CorredorExplorar4.button1,Continue
+Event2CorredorExpo2.text,Coloque os marcadores de porta como indicado.
+Event2CorredorExpo2.button1,Continue
+Token2PortaEscritorio.text,Esta porta leva até um escritorio.
+Token2PortaEscritorio.button1,Continue
+Event2EscritorioExplorar.text,Uma peça pequena e bem organizada. Coloque o tile {MAD20} Esritorio como indicado.
+Event2EscritorioExplorar.button1,Continue
+Event2EscritorioExplorar2.text,O prefeito da cidade, Robert está sentado em uma mesa organizando alguns papéis. Coloque o marcador de pessoa como indicado.
+Event2EscritorioExplorar2.button1,Continue
+EventEscritorioExplorar3.text,Coloque o marcador de porta como indicado.
+EventEscritorioExplorar3.button1,Continue
+Event2EscritorioExpo3.text,Você tem a opção de se mover um espaço para a area explorada.
+Event2EscritorioExpo3.button1,Continue
+Token2PortaCorredor.text,Uma porta de madeira nobre.
+Token2PortaCorredor.button1,Continue
+Event2PortaCorredorExpo.button1,Continuar
+EventTesteProvisorio.text,teste segunda parte
+EventTesteProvisorio.button1,Continue
+Token2PortaBanheiro.text,Uma porta de madeira leva até o banheiro no final do corredor.
+Token2PortaBanheiro.button1,{action} Abrir
+Event2BanheiroExplorar.text,Ao abrir a porta você encontra Jennifer guardando uma pistola rapidamente em sua bolsa. Seu rosto está molhado como se estivesse lavando na pia. Coloque o marcador de pessoa como indicado.
+Event2BanheiroExplorar.button1,Continue
+Token2CorredorConvites.text,Alguns papeis bagunçados estão sobre a escrivaninha de canto.
+Token2CorredorConvites.button1,{action} Examinar
+Event2CorredorConvites.text,Você pega uma série de convites para a cerimonia de hoje. Em um deles, você nota que estava destinado ao Thomas. A data deste convite foi escrita antes do seu desaparecimento.\nEsta pode ser uma pista importante para o desenvolver do seu caso. Receba 1 Pista.
+Event2CorredorConvites.button1,Continue
+Event2CorredorConvites0.text,Você pega uma série de convites para a cerimonia de hoje. Em um deles você nota que estava destinado a Thomas. A tinta destes convites parecem estar frescas.\nReceba 1 pista.
+Event2CorredorConvites0.button1,Continue
+Token2PortaHallE.text,Esta porta leva ao Hall de entrada da mansão.
+Token2PortaHallE.button1,{action} Abrir
+Token2PortaHallD.text,Esta porta leva ao Hall de entrada da mansão.
+Token2PortaHallD.button1,{action} Abrir
+Event2HallExplorar.text,Este é o salão de entrada da mansão Stones. Coloque o tile {MAD20} Hall de Entrada como indicado e remova os marcadores de porta que levam até o Corredor.
+Event2HallExplorar.button1,Continue
+Event2HallExplorar2.text,Alguns quadros fazem parte da decoração do local. Coloque o marcador de interação como indicado.
+Event2HallExplorar2.button1,Continue
+Event2HallExplorar3.text,Coloque os marcadores de porta como indicado.
+Event2HallExplorar3.button1,Continue
+Token2HallQuadro.text,Um quadro grande da familia Stones adorna a parede do comodo.
+Token2HallQuadro.button1,{action} Examinar
+Event2HallQuadroExam.text,Você olha para o quadro tentando identificar as pessoas da fotografia, mas no lugar dos seus rostos, existem apenas energias circulares como se fossem galáxias. Por um instante sua mente é afetada por um horror eminente e você escuta vozes perversas que apertam o seu coração.\nReceba 3 Horrores, em seguida descarte este marcador de interação.
+Event2HallQuadroExam.button1,Continue
+Token2PortaBilhar.text,Esta porta leva a sala de bilhar.
+Token2PortaBilhar.button1,{action} Abrir
+Event2BilharExplorar.text,Você entra na sala de jogos da familia. Coloque o tile {MAD20} Sala de Bilhar como indicado.
+Event2BilharExplorar.button1,Continue
+Event2BilharExplorar2.text,Franklin e William Stones estão jogando sinuca enquanto esperam os convidados. Coloque os marcadores de pessoa como indicado.
+Event2BilharExplorar2.button1,Continue
+Token2PortaSalaDeLeitura.button1,{action} Abrir
+Event2SPAExplorar.text,Um gostoso aroma de incensos invade o hall quando você abre a porta. Coloque o tile {HJ} Spa como indicado.
+Event2SPAExplorar.button1,Continue
+Event2SPAExplorar2.text,Enzo estava mexendo em algumas bolsas em baixo do banco mas para ao perceber que você chegou. Coloque o marcador de pessoa como indicado.
+Event2SPAExplorar2.button1,Continue
+Token2PortaCozinha.text,Esta porta leva ate a cozinha.
+Token2PortaCozinha.button1,{action} Abrir
+Event2CozinhaExplorar.text,Pelo cheiro, a janta já esta sendo preparada. Coloque o tile {MAD20} Cozinha como indicado.
+Event2CozinhaExplorar.button1,Continue
+Event2CozinhaExplorar2.text,Coloque um marcador de parede como indicado.
+Event2CozinhaExplorar2.button1,Continue
+Event2CozinhaExplorar3.text,Andy Stones está separando alguns petiscos em um prato grande. Coloque o marcador de pessoa como indicado.
+Event2CozinhaExplorar3.button1,Continue
+Event2CozinhaExplorar4.text,Um armário grande esta cadeado com uma corrente. Coloque o marcador de interação como indicado.
+Event2CozinhaExplorar4.button1,Continue
+Event2CozinhaExplorar5.text,Coloque o marcador de porta como indicado.
+Event2CozinhaExplorar5.button1,Continue
+Token2CozinhaArmario.text,Tem um bilhete escrito ''SUPRIMENTOS'' no armario.
+Token2CozinhaArmario.button1,{action} Arrombar
+Event2CozinhaArmarioTeste.text,Usar a força bruta pode chamar a atenção. Você tenta abrir o cadeado usando um grampo. Teste {agility}.
+Event2CozinhaArmarioTeste.button1,Continue
+Event2CozinhaArmarioTeste.button2,Continue
+EventCozinhaArmarioSucesso.text,Usando seus truques, você consegue abrir o armario sorrateiramente. Em meio aos ingredientes culinários que estão em fileira, um dos potinhos chama a sua atenção. Ele contem um veneno bastante perigoso.\nReceba 1 Pista.
+EventCozinhaArmarioSucesso.button1,Continue
+Event2CozinhaArmarioFalha.text,Você não consegue abrir o cadeado com seus truques. Seria melhor não chamar a atenção de ninguem por hora. Remova o marcador de intereção do tabuleiro.
+Event2CozinhaArmarioFalha.button1,Continue
+Token2PortaArea.text,Uma porta envidraçada com vista para um patio gramado.
+Token2PortaArea.button1,Continue
+Event2AreaExplorar.text,Abaixo dos quartos do segundo andar, um living se estende até o fundo do pátio. Coloque os tiles {MAD20} Area e {MAD20} Patio como indicado.
+Event2AreaExplorar.button1,Continue
+Event2AreaExplorar2.text,Coloque o marcador de porta como indicado.
+Event2AreaExplorar2.button1,Continue
+Event2AreaExplorar3.text,Sentado em um deck de madeira está o detetive Leonidas. Coloque o marcador de pessoa como indicado.
+Event2AreaExplorar3.button1,Continue
+Token2Avistamento.text,Olhando de dentro da mansão, você vê uma janela grande com vista para uma parte do pátio.
+Token2PortaPatio.button1,{action} Examinar
+Event2PortaPatioTeste.text,Os simbolos são parte de um código secreto. Resolva o quebra-cabeça usando {lore}.
+Event2PortaPatioTeste.button1,Continue
+Event2PortaPatioExpo.text,Um som robusto emana da porta que se abre. Você se depara com uma estufa de flores, um local bem misterioso. Coloque os marcadores de interação como indicado. 
+Puzzle2PortaPatio.button1,Tentar
+Event2PortaPatioExpo.button1,Continue
+Token2PatioPassagemSecretaT.text,Uma estande com algumas ferramentas empilhadas.
+Token2PatioPassagemSecretaT.button1,{action} Investigar
+Token2PatioFloresSelo.text,Alguns armarios contendo diversos tipos de flores.
+Token2PatioFloresSelo.button1,{action} Examinar
+Event2PatioFlores3.button1,Continue
+Event2PatioFlores2.text,Você descobre entre os vasos de flores algo escondido. Receba o Item especial Componentes Ritualiscos e em seguida descarte este marcador de interação.
+Event2PatioFlores3.text,Ao analisar as plantas a sua frente, você percebe facilmente que todas elas estão queimadas em suas extremidades. Da maior até a menor delas, todas foram incineradas em algum ponto. Seja quem tenha feito isso, é uma atitude muito estranha.\nReceba 2 Pistas e remova o marcador de interação.
+Event2PatioFlores2.button1,Continue
+Event2PatioFlores2a.text,Ao retirar os componentes do seu lugar, um vortex é aberto perto de onde você está. O ar a sua volta se torna pesado e seus olhos enxergam o improvavel.
+Event2PatioFlores2a.button1,Continue
+Event2PatioFlores1.text,Em meio as plantas você encontra algo incomum. Uma copia identica do colar de Thomas estava escondida atrás dos vasos.\nReceba 2 Pistas e remova o marcador de interação.
+Event2PatioFlores1.button1,Continue
+SpawnHorrorDoCacador.text,Faça aparecer um Horror Do Caçador no local indicado.
+SpawnHorrorDoCacador.button1,Continue
+Event2PatioFlores0.text,Em meio as plantas você encontra algo incomum. Um tipo de colar estava escondido aqui atrás. Que tipo de colar seria este?\nReceba 1 Pista e remova o marcador de interação.
+Event2PatioFlores0.button1,Continue
+Event2PatioPassagemExpo.text,Você procura entre as ferramentas. Teste {observation}.
+Event2PatioPassagemExpo.button1,Continue
+Event2PatioPassagemExpo1.text,Atrás da estande, você descobre algo mais interessante que as ferramentas. Ao puxar para o lado, uma parede falsa é revelada dando acesso a um tunel. Descarte o marcador de interação e coloque uma Passagem Secreta no local indicado.
+Event2PatioPassagemExpo1.button1,Continue
+Event2PatioPassagemExpo2.text,O tunel termina em uma escada, subindo ela você chega a uma passagem secreta em baixo do tapete da Sala de Estar. Coloque sua miniatura de Investigador na Sala de Estar e coloque o marcador de Passagem Secreta como indicado.
+Event2PatioPassagemExpo2.button1,Continue
+Event2PatioPassagemExpo.button2,Continuar
+Event2PatioPassagemExpo0.text,As ferramentas estão velhas e inutilizadas. Não há nada de util por aqui.
+Event2PatioPassagemExpo0.button1,Continue
+EventFinaldaPrimeiraParte.text,O dia encerrou.
+EventFinaldaPrimeiraParte.button1,Continue
+Eventmito1vozes.text,mito1
+Eventmito3urrobesta.button1,Continue
+Eventmito3urrobesta.text,mito3
+Event2Prefeito0.text,O prefeito chama você para proximo da mesa e cochicha em segredo:\n''Esta chegando o momento, confio em vocês! Tem mais alguma coisa que eu poderia ajudar para solucionar o nosso caso!?''
+Event2PrefeitoA.button1,Continue
+Event2PrefeitoA.text,''De pressa pessoal, não temos muito tempo. Não podemos permitir que o culpado saia impune desta festa.''
+Token2BanheiroJennifer.button1,Button1
+Event2JenniferAB.text,''Boa noite Investigador, não sabe bater na porta antes de entrar!?''
+Event2JenniferAB.button1,{action} O que você faz com uma arma aqui!?
+Event2JenniferAB.button2,{action} Desculpe, só quero fazer algumas perguntas
+Event2JenniferAconfianca.text,Ela respira fundo e sente que não conseguirá mais esconder de você.\n''Eu estou com ela para me proteger. Se o culpado pelo desaparecimento vai estar aqui hoje, preciso estar precavida. Afinal de contas, agora sou eu quem está com o Colar não é!?''\nReceba 1 Pista.
+Event2JenniferAconfianca.button1,Continue
+Event2JenniferA.text,''Você sai entrando nas portas por ai e agora está tendo alucinações. Eu nao tenho arma nenhuma.''\nEla pega sua bolsa e sai rapidamente pela porta do banheiro. Remova o marcador de pessoa do tabuleiro.
+Event2JenniferA.button1,Continue
+Event2JenniferB.text,Ela segue rapidamente em direção a porta e desvia da sua pergunta:\n''Agora não é hora, a cerimonia esta prestes a começar.''\nRemova o marcador de pessoa do tabuleiro.
+Event2Jennifer0.text,''Se me permitem agora, gostaria de usar o banheiro.''
+Event2Jennifer0.button1,Continue
+Token2BilharFranklin.button1,Button1
+Event2Frank0.button1,Continue
+Event2FrankAB.text,''Veja se não é os nossos convidados! Em que posso ajudá-los amigos?''
+Event2Frank0.text,''Se divirtam por ai, a cerimonia ja vai começar.''
+Event2FrankAB.button1,{action} Gostaria de fazer algumas perguntas sobre o caso
+Event2FrankAB.button2,{action} Como o prefeito tem sido para a cidade?
+Event2FrankA.text,''Querido a nossa festa já está para começar. Vá se divertir um pouco e esfrie a cabeça. Você vai ter muito tempo ainda para invertigar o seu caso.''\nReceba 1 pista.
+Event2FrankA.button1,Continue
+Event2FrankB.text,''Robert é um otimo prefeito, trabalhamos juntos muitas vezes nestes anos que passaram. Ultimamente ele tem tomado as decisões por conta propria, mas eu confio nas suas escolhas.''
+Event2FrankB.button1,Continue
+Token2BilharWilliam.button1,Button1
+Event2William0.text,''Não quero falar agora...''
+Event2William0.button1,Continue
+Event2WilliamA.text,''Olá, o que seria pra você?''
+Event2WilliamA.button1,{action} Você conhecia o Thomas?
+Event2WilliamA1.text,O jovem não fala nada, continua apenas jogando sinuca evitando trocar olhares com você. Teste {observation}.
+Event2WilliamA1.button1,Continue
+Event2WilliamAsucesso.text,Entre uma jogada e outra, você consegue notar que a manga esquerda de seu terno está chamuscada de fogo. \nReceba 1 pista.
+Event2WilliamAsucesso.button1,Continue
+Event2WilliamAfalha.text,Você nota que a cada jogada ele olha para o seu pai a frente, como se estivesse esperando alguma reação ou instrução.\nReceba 1 Pista.
+Event2WilliamAfalha.button1,Continue
+Token2SPAEnzo.button1,Button1
+Event2EnzoSPA.text,''E ai pessoal, vocês por aqui... tudo bem!?''
+Event2EnzoSPA.button1,{action} Por que estava mexendo nessas bolsas!?
+Event2EnzoSPA.button2,{action} O que você veio fazer na cidade?
+Event2EnzoSPAA.text,''Ehh... eu estava procurando uma coisa, mas não está aqui, eu já vi.... Agora tenho que ir, até mais tarde.''\nEnzo sai rapidamente pela porta evitando sua conversa. Remova o marcador de pessoa do tabuleiro.
+Event2EnzoSPAA.button1,Continue
+Event2EnzoSPAA1.text,Parece que ao sair apressado, Enzo deixou cair uma nota de seu bolso. Coloque o marcador de interação como indicado.
+Event2EnzoSPAA1.button1,Continue
+TokenNotaEnzo.text,Uma nota amassada caida no chão do SPA.
+TokenNotaEnzo.button1,{action} Olhar
+EventNotaSPA.text,É uma reportagem de um jornal de Insmouth. Na matéria, tem uma foto de Enzo mais jovem, ao lado de um texto onde revela que ele era um ladrão conhecido da cidade. Não detalha sobre a pena cumprida e nem data da reportagem, mas sem duvidas é algo que Enzo escondeu das pessoas daqui.\nReceba 1 Pista.
+EventNotaSPA.button1,Continue
+Event2EnzoSPAB.text,''Desculpem, estou atrasado para a cerimonia, ainda quero arrumar meu cabelo.''\nEnzo mira a porta e sai rapidamente evitando contato com você. Remova o marcador de pessoa do tabuleiro.
+Event2EnzoSPAB.button1,Continue
+Token2CozinhaAndy.button1,Button1
+Event2AndyA.text,''Preciso terminar os petiscos...''
+Event2AndyA.button1,Continue
+Event2Andy0.button1,{action} 
+Eventmito2sangue.button1,Continue
+EventMITO2p.button1,Button1
+EventVendedorB1sucesso.button1,Continue
+EventEsposaA1.text,''Sim, Investigadores. Eu sou a esposa de Franklin e nós sabemos tudo que acontece por aqui. Bom..... talvez nem tudo... já que Thomas está desaparecido. Se eu fosse vocês estaria procurando provas pela cidade, estão perdendo tempo.''\n\nA moça se vira para o armário a frente e continua analisando os objetos.
+Eventmito1vozes.button1,Continue
+EventINTERLUDIO5.text,Vocês terão aproximadamente 1 hora para investigar a mansão. Encerrando o prazo, todos os suspeitos estarão reunidos na Sala de Estar e o Prefeito irá lhe conceder o juízo final sobre o culpado. De pressa!
+Token2SalaPrefeito.button1,Continuar
+Token2PortaSalaDeLeitura.text,Esta porta leva até o SPA.
+Event2Andy0.text,''Boa noite convidado, em que poderia ajudá-lo?''
+Event2Prefeito0.button1,{action} O Detetive Leonidas tinha uma relação com a Jennifer!?
+EventCaixaEnigmaticaResolvidaF.button1,Continue

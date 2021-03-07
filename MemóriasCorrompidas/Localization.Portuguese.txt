@@ -1,0 +1,1000 @@
+.,Portuguese
+quest.name,Memórias Corrompidas
+quest.description,Thomas Nilmann está desaparecido ha 3 dias. O Prefeito de Safira entra em contato com o grupo de investigadores para descobrir este mistério, enquanto alguns eventos sobrenaturais tem ocorrido nesta pacata cidade.\n\nATENÇÃO: As Evidências encontradas no caso não se limitam apenas aos itens especiais, mas também ao dialogos e até mesmo a localização de itens comuns. Algumas delas podem demonstrar quem NÃO está envolvido com o desaparecimento, enquanto outras apontam o verdadeiro suspeito.\n\nCréditos e Agradecimentos: \nIgor Ferreira Komar\nArthur Bertté (Vidal)\nAndré Grégio\nRodrigo Cavalcanti\nPaulo José Moraes de Paula Santos\nGalera Geral do grupo de Whats MoM - Loc.BR
+quest.authors,Wagner Mendes Dall Agnol
+UIPrologoTexto.uitext,A EMOÇÃO MAIS ANTIGA E MAIS FORTE\n\nDA HUMANIDADE É O MEDO, E O MAIS\n\nANTIGO E MAIS FORTE DE TODOS OS\n\nMEDOS, É O MEDO DO DESCONHECIDO.
+UIPrologoTexto2.uitext,H.P.LOVECRAFT
+UIPrologo.button1,CONTINUAR
+EventPrologoSequencia.button1,Continuar
+EventPrologo.button1,Continuar
+UIIntroTEXTO.uitext,Uma carta da cidade de Safira, chega ao seu escritorio no final da tarde de um dia comum. O remetente é um antigo amigo, hoje em dia, prefeito da cidade. Robert Nilmann gostaria de contar com a sua ajuda para investigar o caso do desaparecimento de seu primo, Thomas Nilmann.\n\nA carta relata que já se passaram 3 dias desde o seu\ndesaparecimento. Safira é uma cidade pequena e os\nmoradores já sabem dos rumores que correm\na boca do povo. \nRobert deseja que o caso seja investigado por alguém que não tem conexão com a vítima, visto que tantas pessoas da cidade são suspeitas, inclusive o detetive que estava encarregado da investigação. O que pode ter\nacontecido com Thomas!?\n\nVocê aceita a ótima recompensa que foi proposta e prepara o seu grupo para este trabalho.\nNo dia seguinte pela manhã, você pega o primeiro trem em direção ao local do ocorrido.
+EventInicio.text,Por algum motivo desconhecido, o trêm acaba atrasando a sua chegada em algumas horas. Você desce por volta das 20hrs em Safira, onde é recebido por uma estação que está fechada, uma cidade quase deserta e a neblina densa que paira sobre as ruas.\n\nCada Investigador começa o jogo com 1 pista.
+EventInicio3A.text,Os principais suspeitos que o prefeito revelou a vocês são:\nJennifer, que era namorada da vítima.\nLeonidas, o detetive da cidade.\nEnzo Alberto, um turista que chegou recentemente.\nOs membros da familia Stones, que são:\nFranklim, o pai\nAndy, a mãe\nWilliam, o filho.
+quest.synopsys,Você é contratado para resolver um caso de desaparecimento em uma cidade pequena.
+EventInicio2.button1,Continuar
+EventInicio.button1,Continuar
+EventInicio2.text,O Prefeito deixou com você um bilhete contendo as instruções necessárias para conduzir o caso, bem como, documentos e fotos dos principais suspeitos que já foram levantados até o momento. O seu assistente já está esperando por vocês na própria estação, para guiar os proximos passos.
+EventInicio4.text,Adicione os Tiles {c:TileEstacao}, {c:TilePraca}, {c:TileDocas} e {c:TileLago} como indicado.
+EventInicio4.button1,Continuar
+EventInicio7.button1,Continuar
+Eventinicio5p2.button1,Continuar
+EventInicio5p3.text,Coloque as miniaturas dos investigadores no espaço indicado.
+EventInicio7.text,Adicione um marcador de avistamentos e um marcador de exploração como indicado.
+TokenRuaDireitaAvistamento.text,Descendo o Deck da Estação há uma esquina de rua na cidade.
+TokenRuaDireitaAvistamento.button1,Revelar
+TokenLojaCentroAvistamento1.button1,Revelar
+TokenLojaCentroAvistamento1.text,A rua se estende por mais alguns metros, mas a neblina te impede de ver além. Um jogador neste espaço tem a opção de revelar a próxima parte do mapa.
+EventRuaDireitaAvistamento.text,Coloque os Tiles {c:TileHotel}, {c:TileEsquinaDireita} e {c:TileRuaDireita} como indicado.
+EventRuaDireitaAvistamento.button1,Continuar
+EventRuaDireitaAvistamento2.text,Coloque o marcador de avistamento como indicado.
+EventRuaDireitaAvistamento2.button1,Continuar
+EventRuaDireitaAvistamento3.text,Coloque o marcador de exploração como indicado.
+EventRuaDireitaAvistamento3.button1,Continuar
+EventRuaDireitaAvistamento4.text,Coloque o Marcador de pessoa como indicado.
+EventRuaDireitaAvistamento4.button1,Continuar
+TokenHotelPorta.text,Acima da porta de madeira você lê: Hotel Esmeralda.
+TokenHotelPorta.button1,Abrir
+EventRevelarHotel.text,Você entra pelo hall e vê uma recepção simples. Tem uma moça no balcão de atendimento e um Senhor sentado tomando chá. Coloque os Marcadores de Pessoas e um marcador de parede como indicado.
+EventRevelarHotel.button1,Continuar
+EventRevelarHotel2.text,Esta é Jennifer, a namorada de Thomas. Uma de suas suspeitas.
+EventRevelarHotel2.button1,Continuar
+TokenJenniffer.button1,Continuar
+EventDialogoJenniferAB.button1,{action} Falar sobre o diário...
+EventDialogoJenniferAB.button2,{action}Estou investigando o caso de Thomas Nilmann, poderia fazer algumas perguntas?
+EventDialogoJenniferA.text,''Posso ajudá-lo?''
+EventDialogoJenniferAB.text,Boa noite, me chamo Jennifer, em nome do Hotel Esmeralda em que posso ajudá-lo?
+EventDialogoJenniferA.button1,{action} Falar sobre o diário...
+EventDialogoJenniferB.text,''Posso ajudá-lo?''
+EventDialogoJenniferB.button1,{action}Estou investigando o caso de Thomas Nilmann, poderia fazer algumas perguntas?
+EventDialogoJenniferB1.text,A moça é surpreendida por sua pergunta. Teste {influence}.
+EventDialogoJenniferB1.button1,Continuar
+EventDialogoJenniferA1.button1,Continuar
+EventDialogoJenniferA1.text,Você pensa em compartilhar algumas anotações do diário com ela, quando se recorda que não deveria confiar em ninguém.\nRefletindo sobre a melhor abordagem a fazer, você consegue notar que Jennifer não está usando nenhuma aliança simbolizando o compromisso que ela tem com Thomas.\n\nReceba 1 Pista.
+EventJennifer0.text,Preciso voltar ao trabalho...
+EventJennifer0.button1,Continuar
+EventDialogoJenniferB.button2,Cancelar
+EventDialogoJenniferA.button2,Cancelar
+EventDialogoJenniferB2Sucesso.button1,Continuar
+EventDialogoJenniferAB.button3,Cancelar
+EventDialogoJenniferB1.button2,Continuar
+EventDialogoJenniferB2Falha.text,Jennifer se demonstra um pouco retraida com a sua abordagem.\n''Você não veio em boa hora. Eu já estou muito preocupada com isso, sou a namorada dele. Contudo, estou no meio do expediente, não gostaria de ser interrogada agora.''
+EventDialogoJenniferB2Falha.button1,Continuar
+TokenLagoColarThomas.button1,{action}Pegar
+EventLagoColarThomas.text,De quem poderia ser este objeto? Você encontra um colar em formato de Cruz. Receba o Item Cruz Sagrada, em seguida descarte o marcador de procura do tabuleiro. 
+EventLagoColarThomas.button1,Continuar
+TokenLagoCorpo.text,Algo escuro e grande parece ter sido afundado na beira do lago. Mesmo a noite você é capaz de enxergar.
+TokenLagoColarThomas.text,Uma corrente parece estar brilhando em meio a grama.
+TokenLagoCorpo.button1,{action} Tentar Puxar
+EventLagoCorpo.button1,Continuar
+EventLagoCorpo.button2,Continuar
+EventLagoCorpo.text,Seja o que for, é pesado. Você tenta ficar o mais próximo da beira possivel e puxa novamente com o auxilio de uma tabua grande. Teste {agility}.
+EventLagoCorpoSucesso.text,Com um movimento rápido e preciso, você puxa um saco preto para a beira. Coloque um marcador de procura como indicado.
+EventLagoCorpoSucesso.button1,Continuar
+TokenLagoThomasMorto.text,O saco tem o formato de um corpo humano e esta todo amarrado.
+TokenLagoThomasMorto.button1,{action}Examinar
+EventLagoThomasMortoB2.button1,Continuar
+EventLagoCorpoExaminadoB.text,Os ferimentos causados foram intensos, mas o culpado provavelmente deva ser um cultista. Certamente um monstro não teria o discernimento para esconder o corpo aqui neste lago.\nReceba o item especial Evidência Forense, em seguida descarte o marcador de procura do tabuleiro.
+EventLagoCorpoFalha.text,Você não atinge o equiibrio suficiente para puxar o objeto e com isso cai sobre as pedras a beira do lago. Sofra 1 Dano voltado para baixo.
+EventLagoCorpoFalha.button1,Continuar
+EventLagoCorpoExaminadoB.button1,Continuar
+TokenEstacaoCartazDesaparecido.text,Um mural no canto da estação com diversos cartazes colados.
+TokenEstacaoCartazDesaparecido.button1,{action} Ler
+EventEstacaoCartazLer.text,Os cartazes de desaparecimento são todos sobre Thomas Nilmann. Teste {observation}.
+EventEstacaoCartazLer.button1,Continuar
+TokenEstacaoRegistrosThomas.text,Uma caderneta de capa cinza esta sobre a mesa.
+TokenEstacaoRegistrosThomas.button1,{action} Ler
+EventEstacaoRegistrosThomasLer.text,Você abre o caderno que contem os registros dos horarios e das ultimas passagens de trem vendidas. Teste {observation}.
+EventEstacaoRegistrosThomasLer.button1,Continuar
+EventEstacaoRegistrosThomasLer.button2,Continuar
+EventEstacaoRegistrosSucesso.text,Você percebe algo muito estranho nestes registros.\nO nome de Helena Whitebell está sublinhado em uma página de seis meses atrás. O livro segue com suas anotações, porém nenhuma delas voltou a ser destacada.\n\nReceba 1 pista e remova o marcador de procura.
+EventEstacaoRegistrosSucesso.button1,Continuar
+EventEstacaoRegistroFalha.text,Você passa as folhas rapidamente, com o nome de uma série de pessoas. Nada parece chamar a sua atenção.
+EventEstacaoRegistroFalha.button1,Continuar
+TokenEstacaoArma.button1,{action} Investigar
+EventEstacaoArmaPegar.button1,Continuar
+TokenEstacaoArma.text,Algumas bagagens foram deixadas de lado no banco da estação.
+EventEstacaoArmaPegar.text,Você julga que pode ser util. Receba o item {c:QItemArmaEstacao} e remova o marcador de procura.
+EventLojaCentroRevelar.text,A faixada de uma loja de artigos valiosos é vista do outro lado da rua. Coloque o Tile {c:TileLojaCentro} como indicado.
+EventLojaCentroRevelar.button1,Continuar
+EventLojaCentroRevelar2.text,Coloque o marcador de exploração como indicado.
+EventLojaCentroRevelar2.button1,Continuar
+EventLojaCentroRevelar3.text,Através da vitrine, você consegue ver uma moça elegante com um vestido azul. Ela parece estar discutindo com um vendedor. Coloque o marcador de pessoa como indicado.
+EventLojaCentroRevelar3.button1,Continuar
+EventLojaCentroRevelar4.text,Cloque o marcador de parede como indicado.
+EventLojaCentroRevelar4.button1,Continuar
+EventLojaCentroRevelar5.text,Alguns cadernos e livros estão empilhados em cima do balcão de atendimento. Coloque um marcador de procura como indicado.
+EventLojaCentroRevelar5.button1,Continuar
+EventLojaCentroRevelar6.text,Alguns itens que estão em exibição, parecem interesantes.\nColoque um marcador de procura no local indicado.
+EventLojaCentroRevelar6.button1,Continuar
+TokenLojaAvistamento.text,A neblina da noite compromete a sua visão. Tudo que você enxerga é uma rua em frente e luzes do outro lado dela. Um jogador no Tile {c:TileLago} tem a opção de revelar a próxima área.
+TokenLojaAvistamento.button1,Continuar
+EventLojaCentroRevelarVarivel.text,A faixada de uma loja de artigos valiosos é vista do outro lado da rua. Coloque o Tile {c:TileLojaCentro} como indicado.
+EventLojaCentroRevelarVarivel.button1,Continuar
+EventLojaCentroAvistamentoVariavel.text,A neblina se dissipa aos poucos e a rua continua até dobrar em uma esquina. Coloque os Tiles {c:TileHotel}, {c:TileEsquinaDireita} e {c:TileRuaDireita} como indicado.
+EventLojaCentroAvistamentoVariavel.button1,Continuar
+EventRuaDireitaAvistamentoVarivel.text,Coloque os Tiles, Hotel {MAD20}, Esquina Direita {MAD20} e Rua Direita {MAD20} como indicado.
+EventRuaDireitaAvistamentoVarivel.button1,Continuar
+EventRuaDireitaAvistamentoVariavel.text,Coloque os Tiles {c:TileHotel}, {c:TileEsquinaDireita} e {c:TileRuaDireita} como indicado.
+EventRuaDireitaAvistamentoVariavel.button1,Continuar
+TokenLagoCriancinhas.text,Algumas crianças brincam sozinhas perto do Lago.
+TokenLagoCriancinhas.button1,{action} Conversar
+EventLagoCriancinhas.text,''Nós estavamos agora do outro lado e tinha uma cruz brilhando na grama. Acho que era um colar.''\n Coloque um marcador de procura como indicado.
+EventLagoCriancinhas.button1,Continuar
+EventLagoCriancinhasRemover.text,Ao olhar novamente, você percebe que elas desapareceram em silêncio. Sofra 1 Horror voltado para baixo e remova o marcador de pessoa do tabuleiro.
+EventLagoCriancinhasRemover.button1,Continuar
+TokenLojaPorta.text,A Porta de Vidro abre uma lojinha no centro da cidade.
+TokenLojaPorta.button1,{action} Abrir
+EventLojaCentro.text,A loja possui diversos pedestais de vidro contendo objetos antigos. Remova o marcador de exploração do tabuleiro.
+EventLojaCentro.button1,Continuar
+TokenLojaRegistrosArtefatoThomas.text,Alguns cadernos estão abertos sobre o balcão, parecem ser os registros de compras da loja.
+TokenLojaRegistrosArtefatoThomas.button1,{action} Olhar
+EventLojaCentroRegistrosOlhar.text,Você se aproxima sem chamar a atenção do vendedor. Teste {agility}.
+EventLojaCentroRegistrosOlhar.button1,Continuar
+EventLojaCentroRegistrosOlhar.button2,Continuar
+EventLojaCentroRegistrosSucesso.text,O nome de Thomas Nilmann esta escrito em uma das paginas. Parece que ele comprou algum artigo da loja na ultima semana.\nReceba 1 Pista.
+EventLojaCentroRegistrosSucesso.button1,Continuar
+EventLojaCentroRegistrosFalha.text,O vendedor percebe que você está espionando os seus registros: ''Estas anotações são particulares Sr.''\nEle fecha o caderno e guarda atrás do balcão de atendimento. Remova o marcador de procura do tabuleiro.
+EventLojaCentroRegistrosFalha.button1,Continuar
+TokenLojaEstatua.text,Uma estatua verde esta guardada em cima de um pequeno altar. Parece ser a figura de uma criatura estranha.
+TokenLojaEstatua.button1,{action} Examinar
+EventLojaEstatuaExaminar.text,Os olhos dela tornam-se rubros conforme você detalha cada uma de suas partes bizarras. Sua mente é invadida pelo desespero enquanto a estatua te observa segundo a segundo.\nSofra 1 Horror voltado para baixo negado por {lore}.
+EventLojaEstatuaExaminar.button1,Continuar
+EventLojaCentro2.text,O vendedor da loja parece ter encerrado uma discussão com a moça que está aqui dentro. Coloque um marcador de pessoa como indicado.
+EventLojaCentro2.button1,Continuar
+TokenRestauranteFaca.text,A toalha de mesa está enrolada tapando alguns objetos.
+TokenRestauranteFaca.button1,{action} Desenrolar
+EventRestauranteFaca1.text,Você desenrola a toalha com cuidado e encontra algo que pode ser útil. Receba o Item comum Faca e remova o marcador de procura do tabuleiro.
+EventRestauranteFaca1.button1,Continuar
+EventEXPLORACAO.button1,Continuar
+TokenRestaurantePorta.text,Esta porta é a entrada de um restaurante conhecido na cidade, talvez o unico. Restaurante: Ruby
+EventEXPLORACAO.text,Você tem a opcção de se mover 1 espaço para a área explorada.
+TokenRestaurantePorta.button1,{action} Entrar
+EventRestauranteEntrar.text,Dois homens olham para a porta assim que você entra. Coloque os marcadores de pessoa conforme indicado.
+EventRestauranteEntrar.button1,Continuar
+EventRestauranteEntrar2.text,Uma toalha está enrolada sobre a mesa. Coloque o marcador de procura como indicado.
+EventRestauranteEntrar2.button1,Continuar
+TokenDocasPorta.text,Uma porta de aço reforçada tranca um porão nas Docas.
+TokenDocasPorta.button1,{action} Abrir
+EventPortaDocas.text,A porta é muito robusta, mas você ainda acredita ser capaz de arrombá-la. Teste {strength} (Role um dado a mais se estiver com o Item Pé de Cabra).
+EventPortaDocas.button1,Continuar
+EventPortaDocas.button2,Continuar
+EventPortaDocasSucesso.text,Você usa um esforço sobrenatural e consegue abrir o galpão fechado. A porta de ferro range ao se mover e inumeros morcegos passam por você voando para a rua. O odor de peixe podre do lugar é nauseante ao extremo.\nReceba 2 Danos voltados para baixo negado por {agility}.
+EventPortaDocasSucesso.button1,Continuar
+EventDocasAbrir.button1,Continuar
+TokenDocasAvistamento.text,Próximo ao mar, a névoa se torna muito mais densa. Um jogador neste espaço tem a opção de revelar a próxima área.
+TokenDocasChave.text,Há inumeros pertences em uma estande.
+TokenDocasChave.button1,{action} Examinar
+EventDocasChave.text,Você encontra algo escondido em uma estande velha. Estas chaves possuem um brasão nobre em relevo. Receba o Item especial Chaves Antigas e remova o marcador de procura do tabuleiro.
+EventDocasChave.button1,Continuar
+EventDocasChaveTeste.text,Você procura por algo diferente em meio as ferramentas espalhadas. Teste {observation}.
+EventDocasChaveTeste.button1,Continuar
+EventDocasChaveTeste.button2,Continuar
+EventChaveTesteFalha.text,Você encontra nada alem de roupas e ferramentas.
+EventChaveTesteFalha.button1,Continuar
+EventPortaDocasFalha.text,Todo o esforço não é o suficiente. A porta do galpão é mais resistente do que você estimava.
+EventPortaDocasFalha.button1,Continuar
+EventDocasAbrir.text,Algumas tralhas estão amontoadas em um canto do galpão. Coloque um marcador de procura como indicado.
+TokenDocasAvistamento.button1,Explorar
+EventDocasAvistamento.text,Este é o local onde guardam as cargas dos navios que chegam e saem da cidade através do Cais. Coloque o Tile {c:TileCaixas} como indicado e remova o marcador de avistamento.
+EventDocasAvistamento.button1,Continuar
+TokenDocasAvistamento2.text,A esta hora, a cidade está muito escura. Um jogador neste espaço tem a opção de revelar a proxima área.
+TokenDocasAvistamento2.button1,Revelar
+EventDepositoExplo1.text,Um deposito grande jaz próximo ao lago central. Coloque o Tile {c:TileDeposito} e o marcador de exploração como indicado.
+EventDepositoExplo1.button1,Continuar
+TokenLagoAvistamento.text,Você não consegue ver adiante. Um jogador neste espaço tem a opção de revelar a próxima área.
+TokenLagoAvistamento.button1,Continuar
+EventDepositoExplo.text,Um deposito grande jaz próximo ao lago central. Coloque o Tile {c:TileDeposito} e o marcador de exploração como indicado.
+EventDepositoExplo.button1,Continuar
+EventCaixasExplo2.text,Este é o local onde guardam as cargas dos navios que chegam e saem da cidade através do Cais. Coloque o Tile {c:TileCaixas} como indicado e remova o marcador de avistamento.
+EventCaixasExplo2.button1,Continuar
+TokenRuaEsquerdaAvistamento.text,Com a visão prejudicada, você não consegue ver além. Um jogador neste espaço tem a opção de revelar a próxima área.
+TokenRuaEsquerdaAvistamento.button1,Revelar
+EventRuaEsquerdaRevelar.text,A esquina de uma rua termina com a fachada de um restaurante. Coloque os tiles {c:TileRestaurante}, {c:TileRuaEsquerda} e {c:TileEsquinaEsquerda} como indicado.
+EventRuaEsquerdaRevelar.button1,Continuar
+TokenRuaEsquerdaAvistamento2.text,A nevoa diminui a vista da rua que se estende.
+TokenRuaEsquerdaAvistamento2.button1,Continuar
+EventEsquerdaRevelar2.button1,Continuar
+EventEsquerdaRevelar1.button1,Continuar
+EventEsquerdaRevelar2.text,A faixada de uma loja de artigos antigos é vista do outro lado da rua. Coloque o Tile {c:TileLojaCentro} como indicado.
+EventEsquerdaReveladaBaixo.text,Um deposito grande jaz próximo ao lago central. Coloque o Tile {c:TileDeposito} e o marcador de exploração como indicado.
+EventEsquerdaRevelar1.text,A esquina de uma rua termina com a fachada de um restaurante. Coloque os tiles {c:TileRestaurante}, {c:TileRuaEsquerda} e {c:TileEsquinaEsquerda} como indicado.
+EventEsquerdaReveladaBaixo.button1,Continuar
+EventDocasAvistamento2.text,Este é o local onde guardam as cargas dos navios que chegam e saem da cidade através do Cais. Coloque o Tile {c:TileCaixas} como indicado e remova o marcador de avistamento.
+EventDocasAvistamento2.button1,Continuar
+EventDepositoExplorar.text,Um deposito grande jaz próximo ao lago central. Coloque o Tile {c:TileDeposito} e o marcador de exploração como indicado.
+EventDepositoExplorar.button1,Continuar
+TokenDepositoPorta.text,Uma porta de madeira reforçada possui uma fechadura antiga bem resistente.
+TokenDepositoPorta.button1,{action} Usar Chaves Antigas
+EventDepositoAbrirPorta.text,As chaves antigas que foram encontradas, parecem encaixar perfeitamente nesta fechadura.
+EventDepositoAbrirPorta.button1,Continuar
+EventDepositoRevelar.text,A porta se abre em um rangido estridente. Um deposito antigo e totalmente escuro se revela a sua frente com uma série de caixas e armarios.
+EventDepositoRevelar.button1,Continuar
+EventDepositoRevelar1.text,Coloque os marcadores de parede como indicado. Em seguida, coloque os marcadores de escuridão como indicado.
+EventDepositoRevelar1.button1,Continuar
+EventDepositoRevelar2.text,Algumas velas estão no final da vida util. Parecem que foram quiemadas recentemente. Coloque o marcador de procura como indicado.
+EventDepositoRevelar2.button1,Continuar
+EventDepositoRevelar3.text,Um armario pequeno de madeira esta fechado com uma corrente. Coloque o marcador de procura como indicado.
+EventDepositoRevelar3.button1,Continuar
+TokenDepositoRitual.text,Estas velas parecem estar sujas de sangue.
+TokenDepositoRitual.button1,{action} Investigar
+EventDepositoRitual.text,Colocadas em cima de simbolos antigos, você tenta decifrá-los para entender sobre o que se trata. Teste {lore}.
+EventDepositoRitual.button1,Continuar
+EventSeloDoCulto.text,Atrás do Selo você percebe que um brasão semelhante ao das chaves antigas foi gravado em relevo.
+EventSeloDoCulto.button1,Continuar
+TokenDepositoArmaouSelo.button1,{action} Arrombar
+EventDepositoArma1.text,Teste {strength}. Role 1 dado a mais se tiver o item Pé de Cabra.
+EventDepositoArma1.button1,Continuar
+EventDepositoArma1.button2,Continuar
+EventDepositoArmaFalha.text,Você tenta arrombar o armario fechado, mas acaba torcendo o pulso ao forçar a corrente. Sofra 1 Dano voltado para baixo.
+EventDepositoArmaFalha.button1,Continuar
+EventDepositoArmaSucesso.text,Você consegue abrir o armario apos quebrar as correntes. Em uma das divisórias você encontra uma caixinha trancada. Receba o Item Caixa Enigmatica. O jogador com o Item Caixa Enigmatica pode interagir com ele usando o aplicativo.
+EventDepositoArmaSucesso.button1,Continuar
+EventCaixaEnigmtica.text,Uma caixa pequena trancada por um mecanismo.
+EventCaixaEnigmtica.button1,{action} Inspecionar
+EventCaixaEnigmtica.button2,Cancelar
+EventCaixaEnigmatica1.text,Você tenta destrancar o objeto manuseando sua fechadura. Resolva o Puzzle utilizando {agility}.
+EventCaixaEnigmatica1.button1,Continuar
+EventDialogoTuristaB1.text,Interpretando as frases recitadas, Webber tem um bom sentimento sobre você\n''Estou aqui à estudo. A cidade possui uma energia muito poderosa e quero me conectar a ela. Nessa região, se fechar os seus olhos, irá ouvir o mar cantando enquanto o vento dança nas ruas aos arredores.''\nO Senhor lhe entrega um pergaminho como um presente singelo e te dispensa. \nReceba o Feitiço Abasteça a Mente.
+PuzzleCaixaEnigmatica.button1,Tentar
+TokenRuaEsquerdaLatadeLixoEscutar.text,Parece que derrubaram uma lata de lixo. Há restos de comida espalhados pelo chão.
+TokenRuaEsquerdaLatadeLixoEscutar.button1,{action} Investigar
+EventRuaEsquerdaEscutar.text,Ao se aproximar da lata caída, você observa pela janela do Restaurante Frankiln sentado com o seu filho. Teste {observation}.
+EventRuaEsquerdaEscutar.button1,Continuar
+EventRuaEsquerdaEscutarSucesso.text,Você se aproxima da janela e consegue ouvir uma conversa. ''Amanhã durante a cerimonia, quero que se comporte. Não queremos chamar a atenção, não nos envergonhe... está me ouvindo!?''\nDemora um pouco, mas você escuta outra voz em resposta.\n''Tudo bem pai.''
+EventRuaEsquerdaEscutarSucesso.button1,Continuar
+EventRuaEsquerdaEscutar.button2,Continuar
+EventRuaEsquerdaEscutarFalha.text,Ao se aproximar você acaba pisando em algumas garrafas e fazendo barulho. Talvez seja prudente não se arriscar e ser pego escutando a conversa de outras pessoas. \nRemova o marcador de procura.
+EventRuaEsquerdaEscutarFalha.button1,Continuar
+EventRuaEsquerdaExplorar.text,Um cesto com restos de comida está caído ao lado do restaurante. Coloque um marcador de procura como indicado.
+EventRuaEsquerdaExplorar.button1,Continuar
+EventRuaEsquerdaExplorar1.text,Esta é a entrada do Restaurante mais conhecido da Cidade. Coloque o marcador de exploração como indicado.
+EventRuaEsquerdaExplorar1.button1,Continuar
+EventDialogoJenniferColar.text,Olá, em que posso ajudá-lo?
+EventDialogoJenniferColar.button1,{action} Mostrar o Colar
+EventDialogoJenniferColarA.button1,Quem estava atrás do Colar?
+EventDialogoJenniferColarA.button2,Como sabe que é falso?
+EventDialogoJenniferColarB.text,''Onde você encontrou isso!?''\nJennifer guarda o objeto consigo e se afasta:\n''Este era o colar do Thomas, onde achou ele!??''\nVocê mantém segredo sobre a investigação e deixa a moça expor tudo que sabe sobre o objeto.\n''Ele se tornou muito distante desde que encontrou esta cruz. Passava dias analisando e era como se tivessem uma ligação. Pode parecer besteira, mas este colar queria protegê-lo de alguma maneira.''\nVocê deixa o objeto com ela e não contrapoe nada a respeito.\n\nReceba 1 pista e descarte o item Cruz Sagrada, independente de qual investigador estiver com ele.
+EventDialogoJenniferColar2.text,Jennifer põe o objeto sobre o balcão e abaixa a cabeça:\n''Infelizmente não sei quem poderia estar interessado neste colar maldito, mas posso garantir que era um homem pois Thomas se referia a ELE.\nO grande problema é que ele se tornou muito distante desde que tomou posse desta cruz, não falava quase nada. Talvez estivesse correndo algum perigo e quisesse me proteger, mas o fato é que ele passava horas o analisando.''\n\nReceba 1 pista e descarte o item Cruz Sagrada, independente de qual investigador estiver com ele.
+EventDialogoJenniferColar2.button1,Continuar
+EventDialogoJenniferColar3.text,''A cruz que Thomas comprou tinha runas gravadas em todas as pontas, era um tipo de magia, dava pra sentir. É como se o colar tentasse proteger ele, o reconhecendo como seu dono.\nCertamente quem ficou com o original, estava interessado e compreendia o sobrenatural por trás desta peça.''\nJennifer guarda o objeto consigo e assume um semblante de tristeza.\n\nReceba 1 pista e descarte o item Cruz Sagrada, independente de qual investigador estiver com ele.
+EventDialogoJenniferColar3.button1,Continuar
+TokenMisterioso.button1,Continuar
+EventDialogoMisteriosoColar.text,Um homem misterioso usando chapéu e uma máscara, se encontra na penumbra:\n''Este colar que você carrega, posso oferecer algo em troca!?''
+EventDialogoMisteriosoColar.button1,{action} O que seria?
+EventDialogoMisteriosoColar.button2,Não obrigado
+EventDialogoMisteriosoColarSim.text,Posso lhe entregar algo que fará a sorte e a fortuna caminhar junto contigo para o resto dos seus dias. O que você me diz?
+EventDialogoMisteriosoColarSim.button1,OK
+EventDialogoMisteriosoColarSim.button2,Não, muito obrigado
+EventDialogoMisteriosoColarSim1.text,O homem pega o colar e coloca no bolso do seu sobretudo rapidamente, em seguida te entrega um objeto em mãos.\n\nDescarte o item Cruz Sagrada, independente de qual investigador estiver com ele. \nReceba o Item Pé de Coelho da Sorte e fique compenetrado.
+EventDialogoMisteriosoColarSim1.button1,Continuar
+EventDialogoMisteriosoColarSim2.text,Quando você pensa em perguntar algo, o homem que estava bem em sua frente desaparece sem deixar nenhum vestigio. Remova o marcador de pessoa do tabuleiro.
+EventDialogoMisteriosoColarSim2.button1,Continuar
+EventDialogoMisteriosoOUT.text,Sem responder nada, o homem entra em um beco andando de costas e sumindo logo em seguida. Quando você corre atrás do sujeito, ele realmente desapareceu.\nDescarte o marcador de pessoa do tabuleiro.
+EventDialogoMisteriosoOUT.button1,Continuar
+EventDialogoMisteriosoPistas.text,Um homem misterioso usando chapéu e uma máscara se encontra na penumbra. Ele te encara por um tempo e se dirige a você.\n''Este conhecimento que carrega consigo, gostaria de trocá-lo!?''\n\nUm personagem com 4 Pistas pode escolher a ação de troca com este marcador.
+EventDialogoMisteriosoPistas.button1,{action} Trocar
+EventDialogoMisteriosoPistas.button2,Não Obrigado
+EventDialogoMisteriosoPistas1.text,O homem se vira e abre uma maleta, pegando um objeto brilhoso dentro dela. Ao receber em mãos, você percebe que trata-se de uma arma valiosa. Receba o Item Comum TommyGun.
+EventDialogoMisteriosoPistas1.button1,Continuar
+TokenTurista.button1,Continuar
+EventDialogoTurista.text,Um senhor de terno está sentado organizando seus papéis sobre uma mesa. Ele nota sua aproximação e se dirige a você:\n''Boa noite, me chamo Webber, da cidade de Morumba. Como vai você?''
+EventDialogoTurista.button1,{action} Tem percebido algo diferente aqui no Hotel?
+EventDialogoTurista.button2,{action} O que veio fazer aqui na cidade?
+EventDialogoTuristaA.button1,Continuar
+EventDialogoTuristaB.text,''Yor'h ll'Dagon'' ele profere palavras antigas com um sorriso levemente sinistro em seu rosto. Você usa seu conhecimento para tentar lembrar sobre o que significam. Teste {lore}.
+EventDialogoTuristaB1.button1,Continuar
+EventDialogoTuristaA.text,''Você é o segundo que parece estar investigando este local. Ja faz alguns dias que um detetive tem vindo para falar com a moça do balcão. Soa ainda mais estranho, pois ele sempre está alterado e acabam discutindo em voz baixa sobre alguma coisa. Os moradores aqui da cidade comentam que ele está sempre bebendo no restaurante da esquina.''\n\nO Senhor olha discretamente para Jennifer e volta a se concentrar nas suas anotações.
+EventDialogoTuristaOUT.text,''Perdão, preciso colocar o meu trabalho em dia.''
+EventDialogoTuristaOUT.button1,Continuar
+EventInicio3A.button1,Continuar
+EventLagoThomasMortoB2.text,Você corta as cordas que amarravam e desenrola o corpo de um homem morto. Mesmo com o rosto deformado de certa forma, as caracteristicas são identicas as que você viu nas fotos de Thomas. Por sorte, as ruas da cidade andam quietas ultimamente e a neblina a esta hora lhe dá sossego para examinar cuidadosamente. O peito da vitima, assim como os braços, parecem terem sido dilacerados por garras muito afiadas, que pertencem a algum tipo de criatura mistica.\n\n Você encontrou o corpo de Thomas Nilmann.\nReceba 2 Pistas.
+EventCaixaEnigmaticaResolvidaW.text,Você consegue destrancar as travas da caixa e encontra uma urna prateada escondida ali dentro.\nCom algum esforço você consegue abrir o lacre, mas encontra apenas cinzas dentro dela.\n\nReceba o item especial Evidência Forense.
+TokenDepositoArmaouSelo.text,Este armário esta trancado com uma corrente. Talvez seja possivel arrombá-lo.
+Event2AndyAB.button3,Cancelar
+Event2Andy0.button1,Continuar
+Event2AndyAsucesso.button1,Continuar
+Event2AndyA1.button1,Continuar
+Event2AndyAfalha.text,Percebendo que você não irá desistir, ela lhe revela:\n''Os acontecimentos desta semana, tem sido pesado para todos nós. Alguns demonstram mais, outros menos, Thomas era meu amigo de infância estou muito preocupada.''
+Event2AndyA1.button2,Continuar
+Event2Andy0.text,''Preciso encerrar os preparativos...''
+Event2AndyAsucesso.text,Você consegue acalmá-la. Sem ninguem por perto, ela te responde em voz baixa:\n''As coisas aqui em Safira não são como parecem, Investigador. A cidade, as pessoas, meu casamento... Esta noite é especial, mas não significa que estou feliz.''\n\nReceba 1 pista.
+Event2AndyAfalha.button1,Continuar
+Event2AndyAB.text,Os olhos de Andy estão avermelhados e seu rosto possui algumas lágrimas secas. Ela percebe você chegando e te recebe com um sorriso notávelmente forçado:\n''Boa noite, como está a festa?''
+Event2AndyAB.button1,{action} Por que estava chorando?
+Event2AndyAB.button2,{action} Posso fazer algumas perguntas?
+Token2AreaDetetive.button1,Botão1
+Event2DetetiveAB.text,''O que você quer?''
+Event2DetetiveAB.button1,{action} Por que você anda bebendo!?
+Event2Detetive0.text,''Saiam daqui, não quero falar com vocês.''
+Event2Detetive0.button1,Continuar
+Event2DetetiveAB.button2,{action} Esta brabo porque tiraram você do caso?
+Event2DetetiveA.text,Ele da uma risada ironica para você.\n''E isso é relevante para o seu caso?''\nEle aponta o dedo em sua direção:\n''Escute aqui, faz anos que eu sou o encarregado dos casos aqui da cidade. Você não sabe nada daqui, sobre as pessoas e nem mesmo do seu amigo prefeito! Boa sorte na sua investigação, agora me deixe em paz...''
+Event2DetetiveA.button1,O que quis dizer com isso?
+Event2DetetiveB.text,Ele sorri de maneira irônica para lhe responder:\n''Pode ser, mas você não faz idéia de onde está se metendo. Antes de Thomas sumir, aconteceram outros casos semelhantes ao dele aqui na cidade. O prefeito te contou que tinha um jornalista por aqui que manipulava as notícias para ele? Você está procurando por esta pessoa neste exato momento.''\nReceba 1 Pista.
+Event2DetetiveB.button1,Continuar
+EventFinaldaPrimeiraParte.text,Ao cair da noite a neblina aumenta ainda mais. Com os moradores recolhidos, você encerra a investigação por hoje. Parece que os sinais sobrenaturais presenciados por você, não afetam os moradores de Safira.\nJá no Hotel, vocês discutem sobre as evidencias que encontraram até aqui e tentam chegar em uma solução.\nRemova todo o tabuleiro e mantenham todos os componentes nas fichas dos investigadores (Danos, Pistas, Itens, etc....) Os jogadores podem re-distribuir os itens entre eles como desejarem.
+EventFinaldaPrimeiraParte2.text,Durante a noite, você ignora a adrenalina em seu corpo e procura descansar o que pode. Cada Investigador recupera 1 Dano e 1 Horror.
+EventFinaldaPrimeiraParte2.button1,Continuar
+EventINTERLUDIO.text,Bate 19:00hrs do dia seguinte e vocês se dirigem a mansão dos Stones, onde acontecerá o evento pelo qual todos foram convidados, inclusive vocês. Após serem recebidos cordialmente, o mordomo leva os Investigadores até a Sala de Estar no segundo andar da Mansão.\n\n''Estou trazendo os convidados conforme chegam para a Sala de Estar, procurem ficar a vontade. Dentro de uma hora, vamos dar inicio a cerimonia neste mesmo local.''\n\nColoque o tile {MAD20} Sala de Estar como indicado.
+EventInicio3B.text,Os principais suspeitos que o prefeito revelou a vocês são:\nJennifer, que era namorada da vítima.\nLeonidas, o detetive da cidade.\nEnzo Alberto, um turista que chegou recentemente.\nOs membros da familia Stones, que são:\nFranklim, o pai\nAndy, a mãe\nWilliam, o filho.
+EventInicio3C.text,Os principais suspeitos que o prefeito revelou a vocês são:\nJennifer, que era namorada da vítima.\nLeonidas, o detetive da cidade.\nEnzo Alberto, um turista que chegou recentemente.\nOs membros da familia Stones, que são:\nFranklim, o pai\nAndy, a mãe\nWilliam, o filho.
+EventEnzoAB.text,Sentado em um dos bancos da estação, um homem loiro conversa sozinho em voz alta, enquanto olha um relógio dourado aberto em suas mãos. Ele está usando vestimentas comuns e parece ter um sotaque estrangeiro. Você se aproxima e se apresenta como investigador:\n\n''-Boa noite, em que posso ajudá-lo?''
+EventLagoCorpoExaminadoA.text,Provavelmente este buraco foi causado por um tiro e certamente seria o motivo de sua morte. Você encontrou uma pista conclusiva sobre a morte de Thomas.\nReceba o item especial Evidência Forense, em seguida descarte o marcador de procura do tabuleiro.
+EventLagoThomasMortoA2.text,Você corta as cordas que amarravam e desenrola o corpo de um homem morto. Mesmo com o rosto deformado de certa forma, as caracteristicas são identicas as que você viu nas fotos de Thomas. Por sorte, as ruas da cidade andam quietas ultimamente e a neblina a esta hora lhe dá sossego para examinar cuidadosamente. O seu cranio esta ferido e possui um buraco idêntico ao de uma bala de revolver.\n\n Você encontrou o corpo de Thomas Nilmann.\nReceba 2 Pistas.
+EventFrankB1.text,Percebendo os simbolos místicos que adornam as suas jóias, você tenta obter alguma informação importante. Teste {influence}.
+EventCRIMEArmaDetetive.text,Ao abrir o pano, você encontra algo totalmente inusitado para o local. Receba o Item Comum Revolver.38 e remova o marcador de procura do tabuleiro.
+EventDepositoRitual.button2,Continuar
+EventDepositoRitualA.text,Você reconhece os simbolos tingidos neste local. Estas runas, são usadas para invocação de espiritos e criaturas malignas.\nA parede a sua frente contém marcas de garras com fios de cabelo entre as suas frestas. Ao que tudo indica, um cultista ou feiticeiro esteve aqui neste porão.\nReceba 1 Pista.
+EventDepositoRitualA.button1,Continuar
+EventDepositoRitualFalha.text,As runas escritas em sangue tem um significado terrivel para você. As sombras geradas sob a luz destas velas, te chamam incessantemente para viver a escuridão. Sofra 1 Horror voltado para baixo.
+EventDepositoRitualFalha.button1,Continuar
+EventVendedorB1.text,Você se apresenta como investigador e tenta tirar alguma informação discretamente. Teste {influence}.
+EventEsposaC1.text,''Sim, Thomas é meu amigo de infância. Temo pelo que possa ter acontecido, afinal já são 3 dias que está sumido. Espero que ele volte logo, onde quer que esteja.''\nVocê consegue sentir um semblante de preocupação no rosto dela.\n\nReceba 1 pista.
+EventEsposaBC.button1,{action} Por que estavam dicutindo?
+EventFINALdaSEGUNDAparte.text,Dentro do horario combinado, um sino começa a soar na sala de estar chamando os convidados. Estão todos aqui.
+EventFINALdaSEGUNDAparte.button1,Continuar
+EventFINALdaSEGUNDAparteA.text,Todos se reunem para dar inicio a cerimonia promovida pela familia Stones. Coloque todos os marcadores de pessoa como indicado.
+EventFINALdaSEGUNDAparteA.button1,Continuar
+EventFINALdaSEGUNDAparteB.text,O anfitrião abre com um breve discurso, recebendo todos os convidados e demonstrando alegria em comemorar mais um ano junto ao lado de Andy Stones.\nEm seguida, Robert Nilmann pede a palavra por um momento:\n''Gostaria de desejar uma ótima noite a todos também e pedir desculpas ao Franklin, por tomar um pequeno tempo de sua festa tão esperada.\nComo todos sabem, na semana passada tivemos um caso misterioso do desaparecimento de meu primo e estamos empenhados a descobrir tudo o que aconteceu.\nPois bem, este é o momento perfeito. Todos os suspeitos levantados pelo grupo de investigadores estão aqui e eles concluíram suas buscas em menos de dois dias sobre o desaparecimento do querido Thomas.''\nRobert puxa {rnd:hero} um passo a frente para proferir o seu veredito final.
+EventFINALdaSEGUNDAparteB.button1,Continuar
+EventACUSACAOFINAL.button1,{action} Acusar Jennifer
+EventACUSACAOFINAL.button2,{action} Acusar Robert
+EventACUSACAOFINAL.button3,{action} Acusar Leonidas
+EventACUSACAOFINAL.button4,{action} Acusar Enzo
+EventACUSACAOFINAL.button5,{action} Acusar Frankiln
+EventACUSACAOFINAL.button6,{action} Acusar Andy
+EventACUSACAOFINAL.button7,{action} Acusar William
+Eventmito32Robert.text,Exaustos, vocês não conseguem mais enfrentar o inimigo.\nRobert chora ajoelhado com uma expressão de pavor, implorando pela morte. Thomas se aproxima calmamente do seu primo e sorri novamente. Em uma atitude de misericórdia, ele realiza o ultimo desejo do seu parente.\nSua forma translúcida atravessa o corpo do prefeito e o mesmo começa a brilhar, tão forte que cega as suas vistas por um instante. Logo, ao som de uma grande explosão, tudo se dissipa em sua frente, inclusive a magia negra que trancava a sua saída desta mansão.
+EventACUSACAOFINAL.text,Baseado em todas as evidencias que coletaram durante a investigação, quem é o culpado pelo desaparecimento de Thomas Nilmann!?
+EventACUSARJenniferA.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi a Jennifer!''
+EventFinalTerrivel.text,Apesar de sobreviver a este inferno, você não conseguiu solucionar o caso de Thomas Nilmann, nem mesmo proteger as vítimas de sua vingança.\nA investigação não foi conluída.
+EventAcusarJenniferA1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam a suspeita impedindo que ela fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nJennifer tenta se debater, mas não consegue se soltar... então você continua:\n\n''Jennifer possuía uma relação fragil com Thomas, viveu escrava de seu próprio ciumes e desejava o colar que ele havia comprado. Além disso, ela nunca esqueceu de seu passado com o detetive Leonidas, que insistia viementemente para que eles voltassem a ficar juntos.\nEstes foram os motivos para ela assassinar o seu namorado.''
+EventACUSACAOfalsa.text,A festa é interrompida e os convidados ficam apreensívos. As conclusões do grupo de Investigadores sobre o caso Thomas Nilmann estavam equivocadas.
+EventACUSACAOfalsa.button1,Continuar
+Eventmito31Jennifer.button1,Continuar
+EventACUSARJenniferA.button1,Continuar
+EventAcusarJenniferA1.button1,Continuar
+EventACUSARRobertA.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o Robert!''
+Eventmito32Robert.button1,Continuar
+EventACUSARRobertA.button1,Continuar
+Eventmito31Jennifer.text,Jennifer tenta correr até uma porta tentando fugir do desespero em que se encontra. Ao olhar para trás, ela percebe Thomas Nilmann se aproximar com um sorriso perturbador em seu rosto.\nSem pensar, ela se joga contra a energia negra que está formada atrás das saídas e ve seu corpo ser consumido pela magia do além.\n\nRemova o marcador de pessoa do tabuleiro. Jennifer está morta.
+Eventmito30Andy.button1,Continuar
+Eventmito30Andy.text,Com um movimento inesperado, o fantasma de Thomas se aproxima rapidamente de Andy Stones. Ela grita em desespero enquanto é paralizada pelo medo. Em seguida, sua garganta é cortada rapidamente a levando para morte.\nRemova o marcador de pessoa do tabuleiro.
+EventFANTASMAAparece2.button1,Continuar
+EventACUSAREnzoC.button1,Continuar
+EventFinalTerrivel.button1,Continuar
+Eventmito28Thomas1.button1,Continuar
+EventACUSAREnzoC.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o Enzo Alberto!''
+EventAcusarEnzoC1.button1,Continuar
+EventAcusarEnzoC1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nEnzo tenta se debater, mas não consegue se soltar... então você continua:\n\n''Enzo Alberto decidiu se estabelecer aqui em Safira por um tempo propositalmente. Ele tem investigado o caso em paralelo, procurando saber o verdadeiro culpado pelo desaparecimento de sua irmã mais nova, Helena Whitebell. Sua primeira reação, foi eliminar o ex-namorado dela, que era justamente a pessoa que manipulava as noticias locais e mentia sobre o seu desaparecimento.''
+EventACUSARAndyA.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi a Andy Stones!''
+EventACUSARAndyA.button1,Continuar
+EventAcusarAndyA2.button1,Continuar
+EventAcusarAndyA2.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam a suspeita impedindo que ela fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nAndy tenta se debater, mas não consegue se soltar... então você continua:\n\n''Andy nunca deixou de ser apaixonada por Thomas, mesmo quando acabaram sua relação ainda na juventude. O colar que ela cobiçava acabou ajudando nesta atitude impulsiva.''
+EventAcusarAndyA1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam a suspeita impedindo que ela fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nAndy tenta se debater, mas não consegue se soltar... então você continua:\n\n''Andy nunca deixou de ser apaixonada por Thomas, mesmo quando acabaram sua relação ainda na juventude. Ela já foi culpada pelo desaparecimento de sua antiga namorada Helena, e hoje, pelo desaparecimento do seu amigo. O colar que ela cobiçava acabou ajudando nesta atitude impulsiva.''
+EventAcusarAndyA1.button1,Continuar
+EventACUSARLeonidasA.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o detetive Leonidas!''
+EventACUSARLeonidasA.button1,Continuar
+EventAcusarLeonidasA1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nLeonidas tenta se debater, mas não consegue se soltar... então você continua:\n\n''Leonidas nunca foi um profissional estável, por isso o Prefeito da cidade o afastou do caso. Conseguimos identificar que foi um crime passional pelo fato do colar de Thomas ter sido deixado para trás bem próximo da cena do crime. O sujeito que o matou, não estava atrás de seus pertences. Como um detetive experiente, ele mesmo tentou implantar pistas falsas aqui na mansão dos Stones para nos enganar. \nPor fim, a relação entre Jennifer e Thomas, nunca foi aceita pelo detetive, que vivia embriagado e insistindo para que ela terminasse com ele.''
+EventAcusarLeonidasA1.button1,Continuar
+EventACUSACAOverdadeira.text,Os convidados ficam totalmente apreensivos com suas declarações. O clima da festa se torna pesado nos primeiros instantes, mas logo todos se soltam e comemoram juntos um caso dessa grandeza ter sido resolvido. \nAs conclusões do grupo de Investigadores sobre o caso Thomas Nilmann estavam corretas. Você desmascarou o verdadeiro culpado pelo crime. A investigação foi concluída com sucesso!
+EventACUSACAOverdadeira.button1,Continuar
+EventAcusarWillA2.button1,Continuar
+EventAcusarWillA2.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''HAHAHAHAHAHAHAHA''\n\nProferindo uma risada sinistra, William arregala os olhos em uma expressão assustadora e percebe que não conseguirá se soltar... então você continua:\n\n''William é um jovem que possui problemas psicóticos. Mesmo a familia Stones tentando o proteger, ficou evidente que a sua doença era algo que não conseguia controlar. O seu comportamento instável, nos fez chegar a conclusão de que ele foi o culpado pelo assassinato de Thomas Nilmann.''
+EventFANTASMAAparece1.text,Subtamente, as portas que levam para fora da Sala de Estar, são envoltas em uma energia negra semelhante a um portal interdimensional. Você sente o cômodo flutuando no ar como se tivesse sido separado das outras peças da mansão.\nLogo, uma risada maléfica ecoa pelas paredes da sala enquanto o ar a sua volta torna-se terrivelmente gelado.\n\nRemova todos os tiles e marcadores da mansão. Remova também os marcadores de exploração da {MAD20} Sala de estar.\n\nPara efeitos estéticos, você pode colocar marcadores de Fendas no local das portas da sala. Estas Fendas NÃO podem ser fechadas.
+EventAcusarFranklinA2.button1,Continuar
+EventObjetivoDerrotarThomas.button1,Continuar
+EventAcusarLeonidasC1.button1,Continuar
+EventACUSARLeonidasC.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o detetive Leonidas!''
+EventACUSARLeonidasC.button1,Continuar
+EventAcusarFranklinA3.button1,Continuar
+EventAcusarFranklinA3.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nFranklin tenta se debater, mas não consegue se soltar... então você continua:\n\n''Franklin é um feiticeiro disfarçado que reside na cidade de Safira a anos. Descobrimos que ele faz parte de um culto e tem invocado criaturas malignas para satisfazer os seus interesses. Cobiçando o colar da vítima, ele nao mediu atitudes para obtê-lo e acabou assassinando Thomas Nilmann.''
+EventAcusarLeonidasC1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nLeonidas tenta se debater, mas não consegue se soltar... então você continua:\n\n''Leonidas nunca foi um profissional estável, por isso o Prefeito da cidade o afastou deste caso. A relação entre Jennifer e Thomas, nunca foi aceita pelo Detetive, que acabou de alguma maneira fatalizando a vítima, caracterizando um crime passional.''
+EventAcusarFranklinA2.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nFranklin tenta se debater, mas não consegue se soltar... então você continua:\n\n''Franklin é um feiticeiro disfarçado que reside na cidade de Safira a anos. Descobrimos que ele faz parte de um culto e tem invocado criaturas malignas para satisfazer os seus interesses. Ao matar Thomas, ele deixou uma cópia do seu colar para trás, tentando despistar o fato de que o matou porque realmente estava atrás deste objeto.''
+EventACUSARFranklinA.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o Franklin Stones!''
+EventACUSARFranklinA.button1,Continuar
+EventACUSARFranklinC.button1,Continuar
+UITextoFinalBom.uitext,Mesmo com toda a pressa do prefeito em\nresolver o caso, você conseguiu completar a missão de maneira\nbrilhante. Não apenas Robert, mas todos os moradores\nde Safira ficaram impressionados com o seu trabalho.\n\nCom a certeza de que a cidade está\nprotegida, inúmeros cidadãos vão\naté a estação aplaudir o seu esforço e desejam\nsorte para o grupo em sua despedida.\nVocê recebe o pagamento como prometido e acolhe\na todos os agradecimentos daquelas pessoas ali presentes.\nNa viagem de volta, passam-se algumas horas\ndesde que estão a caminho e \numa carta é deixada abaixo da porta na\ncabine de vocês:\n\n''Estou impressionado com seus feitos nesta última\nsemana. Gostaria de fazer uma proposta pelos\nseus serviços.''\n\nParece que outros eventos sobrenaturais tem\nacontecido em uma vila não muio distante. Resta\nsaber agora, o destino que o grupo escolherá...\nVoltar para casa ou encarar um novo desafio?
+EventAcusarFranklinA1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nFranklin tenta se debater, mas não consegue se soltar... então você continua:\n\n''Franklin é um feiticeiro disfarçado que reside na cidade de Safira a anos. Descobrimos que ele faz parte de um culto e tem invocado criaturas malignas para satisfazer os seus interesses. Ao matar Thomas, ele deixou uma cópia do seu colar próximo da cena do crime para despistar o fato de que o matou porque realmente estava atrás deste objeto.''
+EventAcusarFranklinA1.button1,Continuar
+Eventmito28Thomas4.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nApesar de translucido, da para ver uma palavra escrita em sua testa: VINGANÇA.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+SpawnThomasNilmann.text,Faça aparecer um Fantasma no local indicado. Este é Thomas Nilmann, uma alma perdida em busca de vingança.
+EventFANTASMAAparece1.button1,Continuar
+EventObjetivoDerrotarThomas.text,OBJETIVO: Derrote Thomas Nilmann antes que ele elimine todos os convidados da festa.
+Eventmito28Thomas2.button1,Continuar
+EventFANTASMAAparece2.text,Apavorados, o detetive Leonidas junto com Enzo, Franklin e William Stones correm para o outro lado da janela, ficando abaixados próximo a uma das poltronas no canto. Neste instante, uma cena horrivel é presenciada. Estes quatro colocam as suas mãos na cabeça sofrendo uma dor inimaginável e gritando por socorro. Incapaz de ajudá-los, você e os outros convidados apenas assistem as suas cabeças estourando e jorrando sangue por toda a sala.\n\nRemova os marcadores de pessoa do tabuleiro.
+Eventmito28Thomas4.button1,Continuar
+EventAcusarFranklinC1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nFranklin tenta se debater, mas não consegue se soltar... então você continua:\n\n''Franklin é um feiticeiro disfarçado que reside na cidade de Safira a anos. Descobrimos que ele faz parte de um culto e coleciona objetos místicos, tais quais, o colar de Thomas. Pelo motivo de cobiçar esta peça, ele acabou fatalizando a vítima e tentando encobrir este fato.''
+SpawnThomasNilmann.button1,Continuar
+EventAcusarFranklinC1.button1,Continuar
+EventACUSARWillC.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o William Stones!''
+EventACUSARWillC.button1,Continuar
+EventACUSARWillA.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o William Stones!''
+EventACUSARWillA.button1,Continuar
+EventAcusarEnzoA1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nEnzo tenta se debater, mas não consegue se soltar... então você continua:\n\n''Enzo Alberto decidiu se estabelecer aqui em Safira por um tempo propositalmente. Ele tem investigado o caso em paralelo, procurando saber o verdadeiro culpado pelo desaparecimento de sua irmã mais nova, Helena Whitebell. Sua primeira reação, foi eliminar o ex-namorado dela por vingança, que era justamente a pessoa que manipulava as noticias locais e mentiu sobre tê-la encontrado.\nEle ainda permaneceu na cidade buscando alguma forma de punir todos os outros envolvidos.''
+EventAcusarEnzoA.button1,Continuar
+EventAcusarEnzoC2.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nEnzo tenta se debater, mas não consegue se soltar... então você continua:\n\n''Enzo Alberto decidiu se estabelecer aqui em Safira por um tempo propositalmente. Ele tem investigado o caso em paralelo, buscando vingança por alguma vítima conhecida de desaparecimento na cidade que não foi procurada.''
+EventAcusarEnzoA2.button1,Continuar
+EventAcusarWillA1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''HAHAHAHAHAHAHAHA''\n\nProferindo uma risada sinistra, William arregala os olhos em uma expressão assustadora e percebe que não conseguirá se soltar... então você continua:\n\n''William é um jovem que possui problemas psicóticos. Mesmo a familia Stones tentando o proteger, ficou evidente que a sua doença era algo que não conseguia controlar. Encontramos o corpo de Thomas Nilmann incinerado dentro de uma urna, o que nos levou ao único suspeito que se enquadrava neste tipo de comportamento.''
+EventAcusarWillA1.button1,Continuar
+EventAcusarWillC1.button1,Continuar
+EventAcusarEnzoA2.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nEnzo tenta se debater, mas não consegue se soltar... então você continua:\n\n''Enzo Alberto decidiu se estabelecer aqui em Safira por um tempo propositalmente. Ele tem investigado o caso em paralelo, buscando vingança por alguma vítima conhecida de desaparecimento na cidade que não foi procurada.\nEle ainda permanecia aqui, buscando uma forma de punir a todos os outros que estiveram envolvidos.''
+EventAcusarWillC1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''HAHAHAHAHAHAHAHA''\n\nProferindo uma risada sinistra, William arregala os olhos em uma expressão assustadora e percebe que não conseguirá se soltar... então você continua:\n\n''William é um jovem que possui problemas psicóticos. Mesmo a familia Stones tentando o proteger, ficou evidente que a sua doença era algo que não conseguia controlar. O seu comportamento instável, nos fez chegar a conclusão de que ele foi o culpado pelo assassinato de Thomas Nilmann.''
+EventAcusarEnzoA1.button1,Continuar
+Eventmito28Thomas2.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nApesar de translucido, da para ver o seu corpo todo dilacerado e cheio de cortes, parte por parte.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+EventAcusarEnzoC2.button1,Continuar
+EventACUSARFranklinC.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o Franklin Stones!''
+UITextoFinalRuim.uitext,O caso não foi resolvido, mas você consegue\nsobreviver a todo inferno presenciado nestes \núltimos dias. Sua reputação é arruinada no\nconceito do prefeito Robert e de todos os \nmoradores locais. A cidade ainda permanece\ndeserta, exalando horror pelos cantos de cada\nbeco que você passa, com as pessoas trancadas \ndentro de suas casas cheias de medo\n\nA tensão te persegue na viagem de volta, você\nse sente fracassado e fica lamentando a \nmorte daqueles que não conseguiu proteger. \nOs dias passam e o ar se torna cada vez \nmais acusador a sua volta, trazendo lembranças \nterríveis daquela mansão.\n\nSe suas conclusões tivessem sido corretas, \ntalvez conseguisse impedir toda a desgraça \ncausada pela vingança de Thomas. \nDe qualquer modo, os acontecimento \nna cidade de Safira ficarão para sempre \nem suas memórias.
+Eventmito2sangue.text,Ao colocar as mãos no seu rosto, {rnd:hero} sente que está sendo lavado(a) de sangue por todo o seu corpo. Ele(a) corre em direção ao reflexo mais proximo para que possa se olhar, mas não vê nada de anormal.\nSofra 1 Horror voltado para baixo.
+Eventmito3urrobesta.text,A neblina aumenta sua intensidade conforme o horario avança. Este evento afeta o Investigador que tenha mais {observation}.
+Eventmito4tropeca.button1,Continuar
+Eventmito3a.text,Ao passar por um beco na cidade, você ouve um sussurro doce e infantil chamando o seu nome. Você corre na direção da voz com a sensação de que ela está pedindo a sua ajuda. Conforme avança, o chamado se torna uma risada onde a voz fina de uma criança vai ficando cada vez mais grave, até se tornar o urro de uma besta.\nSofra 2 Horrores voltados para baixo negados por {will} .
+Eventmito3a.button1,Continuar
+Eventmito6socorroalem.text,Conforme a investigação avança, o cansaço e o medo aumentam. Vozes invadem o seu pensamento minuto a minuto e você nao consegue fugir delas. Por mais que tente se distrair, você continua ouvindo pedidos de socorro vindos do além. Cada Investigador sofre 2 Horrores voltados para baixo, negados por {will}.
+Eventmito4tropeca.text,A nevoa que toma conta das ruas, faz com que {rnd:hero} tropece no caminho e caia por cima de algumas pedras. Sofra 2 Danos voltados para baixo, negados por {observation}.
+Eventmito5corvos.button1,Continuar
+Eventmito8igreja.button1,Continuar
+Eventmito6socorroalem.button1,Continuar
+Eventmito8igreja.text,Um grande sino de uma igreja proxima, soa pelas ruas da cidade. Imediatamente, começa a cair uma chuva forte e inesperada, apesar da neblina. A hora está avançando. Sem efeito imediato.
+Eventmito10fantasma.button1,''Você está bem!?''
+Eventmito10fantasma.text,{rnd:hero} sente uma mão leve tocar o seu ombro, ao se virar, ele(a) nota um corpo de uma mulher em forma espectral diante dos seus olhos. Ela parece estar chorando e fica imovel a sua frente sem reação.
+Eventmito10fantasma.button2,''Quem é você!?''
+Eventmito12sanguex.text,{c:Eventmito2sangue} vê novamente o seu corpo lavado em sangue. O desespero aumenta ao perceber que o sangue jorrando é totalmente negro, formando uma poça grande no chão do lugar onde está.\nSofra 2 Horrores negados por {will}.
+Eventmito12sanguex.button1,Continuar
+Eventmito8A.text,A fantasma continua soluçando, como se realmente estivesse chorando, você tenta confortar ela. teste {influence}.
+Eventmito8A.button1,Continuar
+Eventmito8A.button2,Botão2
+Eventmito8Afalha.text,Ela se assusta com a sua abordagem e se afasta rapidamente. Ao sumir na nevoa, você ouve um grito de desespero semelhante ao choro de uma alma atormentada. Sofra 1 Horror.
+Eventmito8Afalha.button1,Continuar
+Eventmito8Asucesso.text,Você consegue se aproximar calmamente dela, demonstrando paz nos seus gestos. Olhando em seus olhos, a chama da determinação começa a queimar dentro de si. Ela sorri como sinal de agradecimento e vai embora.\nFique compenetrado.
+Eventmito8Asucesso.button1,Continuar
+Eventmito8B.text,Ela se assusta e voa para longe imediatamente. Você não conseguiu perceber o que era aquela aparição.\nSofra 1 Horror voltado para baixo.
+Eventmito8B.button1,Continuar
+Eventmito13chuva.text,A chuva que começou a cair se torna rubra como sangue. As águas que se acumulam entre ruas e becos, começam a escoar fortemente em direção ao lago central. A correnteza é tão forte a ponto de derrubar você.\nCada Investigador em um espaço externo, sofre 2 Danos voltados para baixo negados por {agility}.\nCada Investigador em um espaço externo se move 1 espaço em direção ao Tile {MAD20} Lago.
+Eventmito13chuva.button1,Continuar
+Eventmito15noiteturbulenta.button1,Continuar
+Eventmito10chuvaA.text,Algum jogador terminou a fase do Mito no Tile {MAD20} Lago?
+Eventmito16encerrar.text,A noite está chegando ao fim e os moradores de Safira já estão recolhidos. Vocês não tem mais tempo para continuar a Investigação, depressa!
+Eventmito5corvos.text,Enquanto a cidade permanece em silêncio, os corvos grasnam melodias assombrosas esta noite. Sem efeito imediato.
+Eventmito15noiteturbulenta.text,Todas as evidencias que você encontrou até agora, fazem parte de uma conspiração do Desconhecido. Este evento de mito afeta o Investigador que tem mais pistas.
+Event14monstro.text,Uma névoa densa vinda do mar, avança fortemente pela cidade. 
+Eventmito11A.text,Os relatos que você tem encontrado na investigação são eventos minimos perto da cadeia de tensão que envolve esta cidade. O peso desta investigação te trás muita angustia em meio a esta noite turbulenta.\n Sofra 1 Horror voltado para baixo e 2 Danos voltados para baixo, negados por {lore}.
+Eventmito11A.button1,Continuar
+Eventmito18mansao.text,O ar da mansão é pesado como se ainda estivesse naquela neblina intensa. As paredes parecem impregnadas de terror por onde você passa. Sem efeito imediato.
+Eventmito18mansao.button1,Continuar
+Eventmito19pesadelosimbolo.text,{rnd:hero} olha para o chão e percebe estar em cima de um simbolo arcano. Ele(a) lembra de ter sonhado noite passada com algo muito parecido. Os pesadelos noturnos invadem novamente a sua mente trazendo desespero. Sofra 2 Horrores voltados para baixo, negados por {will}.
+Eventmito19pesadelosimbolo.button1,Continuar
+Eventmito20sombras.text,Um som de prateleiras quebrando vem de todas as direções da casa. O barulho cessa por alguns segundos e de repente, feixos de sombra saem das paredes atacando os convidados da cerimonia. Cada Investigador sofre 1 Horror voltado para baixo e 2 Danos voltados para baixo, negados por {strength}.
+Eventmito20sombras.button1,Continuar
+Eventmito21coracao.button1,Continuar
+Eventmito22lampadas.text,{rnd:hero} esta lendo alguns papeis que encontrou pela mansão, tentando encontrar algumas pistas. De repente, as luzes se apagam e pode-se ouvir as lampadas quebrando uma após a outra sequencialmente. Coloque marcadores de escuridão em todos os espaços do seu comodo e sofra 2 Horror, negado por {lore}.
+Eventmito22lampadas.button1,Continuar
+Eventmito23solucionarocaso.text,A hora está avançada. Você sente uma angustia quando pergunta a si mesmo se irá conseguir solucionar este caso. Cada Investigador sofre 1 Horror negado por {will}.
+Eventmito23solucionarocaso.button1,Continuar
+Eventmito24fantasma.text,O espirito da mulher que você encontrou na cidade volta a sua frente. Desta vez, ela não esta chorando, mas tras um sorriso de alegria no seu rosto espectral que te transmite paz e conforto. Ela se despede em tons de alegria e some logo em seguida. Cada Investigador cura 2 Horrores.
+Eventmito24fantasma.button1,Continuar
+Eventmito24atacado.text,{rnd:hero} está juntando as evidencias que encontrou, quando é atacada de surpresa por uma presença intangivel. Ele(a) é jogado ao chão de maneira brusca sem conseguir identificar quem o surpreendeu. Sofra 2 Danos voltados para baixo, negados por {strength}.
+Eventmito24atacado.button1,Continuar
+Eventmito25influencia.button1,Continuar
+EventmitoTHOMAS.text,Em um instante, você se encontra exatamente onde estava a um minuto atrás. Você sabe que não era apenas uma ilusão, Thomas realmente está morto. Os laços corrompidos estão impregnados nesta cidade, impedindo que as vítimas descansem em paz. Restam apenas alguns minutos, seja rápido.
+Eventmito26chegandoahora.text,O vento sopra la fora e não resta muito tempo. Está chegando o momento de juntar todas as evidências encontradas para solucionar o caso de Thomas Nilmann. Sem efeito imediato.
+Eventmito26chegandoahora.button1,Continuar
+Eventmito28Thomas3.button1,Continuar
+Eventmito28Thomas1.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nApesar de translucido, da para ver o buraco em sua cabeça, como se tivesse sido atingido por um tiro de revolver.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+Eventmito29visaoturva.button1,Continuar
+Eventmito27ossos.button1,Continuar
+EventFinaldaPrimeiraParte3.button1,Continuar
+EventELIMINADO.text,A baixa de um dos membros do grupo não poderá ser superada de maneira alguma. Vocês decidem por abandonar o caso e tentar proteger a vida dos que restaram. A Investigação não foi concluída.
+EventELIMINADO.button1,Continuar
+Event2HallQuadroExam.text,Você olha para o quadro tentando identificar as pessoas da fotografia, mas no lugar dos seus rostos, existe apenas um fluxo de energia que te puxa para dentro de um portal. Teste ({lore}:2) se passar, você consegue pressentir o perigo e se afasta rapidamente, evitando de ser sugado pelo vórtice. Se falhar, este fluxo te puxa para dentro te levando para outra dimensão desconhecida.\nFique perdido no tempo espaço, em seguida descarte este marcador de procura.
+EventMITO3p.button1,Continuar
+Event3pmito1sangue.text,Ao colocar as mãos no seu rosto, {rnd:hero} sente que está sendo lavado(a) de sangue por todo o seu corpo. Ele(a) corre em direção ao reflexo mais proximo para que possa se olhar, mas não vê nada de anormal.\nSofra 1 Horror voltado para baixo.
+Event3pmito7Chuva.text,A chuva que começou a cair se torna rubra como sangue. As águas que se acumulam entre ruas e becos, começam a escoar fortemente em direção ao lago central. A correnteza é tão forte a ponto de derrubar você.\nCada Investigador em um espaço externo, sofre 3 Danos voltados para baixo negados por {agility}.\nCada Investigador em um espaço externo se move 1 espaço em direção ao Tile {MAD20} Lago.
+Event3pmito2Enxaqueca.button1,Continuar
+Event3pmito4Igreja.text,Um grande sino de uma igreja proxima, soa pelas ruas da cidade. Imediatamente, começa a cair uma chuva forte e inesperada, apesar da neblina. A hora está avançando. Cada Investigador sofre 1 Horror virado para baixo.
+Event3pmito3Monstro.button1,Continuar
+Event3pmito7Chuva.button1,Continuar
+Event3pmito4Igreja.button1,Continuar
+Event3pmito5Sanguex.text,{c:Event3pmito1sangue} vê novamente o seu corpo lavado em sangue. O desespero aumenta ao perceber que o sangue jorrando é totalmente negro, formando uma poça grande no chão do lugar onde está.\nSofra 2 Horrores negados por {will}.
+Event3pmito5Sanguex.button1,Continuar
+Event3pmito6Fantasma.text,{rnd:hero} sente uma mão leve tocar o seu ombro, ao se virar, ele(a) nota um corpo de uma mulher em forma espectral diante dos seus olhos. Ela parece estar chorando e fica imovel a sua frente sem reação.
+Event3pmito6Fantasma.button1,''Você está bem!?''
+Event3pmito6Fantasma.button2,''Quem é você!!??''
+Eventinicio5p2.text,Coloque as miniaturas dos investigadores no espaço indicado.
+EventInicio5p3.button1,Continuar
+Event3pmito9Pistas.text,Todas as evidencias que você encontrou até agora, fazem parte de uma conspiração do Desconhecido. Este evento de mito afeta o Investigador que tem mais pistas.
+Event3pmito1sangue.button1,Continuar
+Event3pmito11Mansao.text,O ar da mansão é pesado como se ainda estivesse naquela neblina intensa. As paredes parecem impregnadas de terror por onde passa e você sente a pulsação de um coração que bate cada vez mais rápido.\nCada Investigador sofre 2 horrores virados para baixo, negados por {will}.
+Event3pmito12Lampadas.button1,Continuar
+Event3pmito11Mansao.button1,Continuar
+Event3pmito13Fantasma.text,O espirito da mulher que você encontrou na cidade volta a sua frente. Desta vez, ela não esta chorando, mas tras um sorriso de alegria no seu rosto espectral que te transmite paz e conforto. Ela se despede em tons de alegria e some logo em seguida. Cada Investigador cura 2 Horrores.
+Event3pmito14Influencia.text,O tempo está passando, seu nervosismo aumenta. As vozes em sua cabeça já são um misterio para você. Seria seu psicologico, ou as vozes do oculto te desafiando? De qualquer maneira, você tenta convencer a si mesmo de que tudo logo vai passar. Cada Investigador sofre 2 Horrores, negados por {influence}.
+Event3pmito14Influencia.button1,Continuar
+Event3pmito15Ossos.button1,Continuar
+Event3pmito15Ossos.text,{rnd:hero} sente seus ossos estralando por todo seu corpo. Eles se deslocam involuntáriamente e você não consegue evitar. Sofra 3 Danos virados para baixo, negados por {strength}. Se sofrer pelo menos 1 Dano, vire um Dano para cima.
+Event3pmito17VisaoTurva.button1,Continuar
+Event3pmito9Pistas.button1,Continuar
+Event3pmito8Urro.text,A neblina aumenta sua intensidade conforme o horario avança. Este evento afeta o Investigador que tenha mais {observation}.
+EventEscuridaoDocas.text,Este galpão velho está mergulhado em breu. Coloque um marcador de escuridão como indicado.
+EventDepositoRitualA2.text,Você reconhece os simbolos tingidos neste local. Estas runas, são usadas para proteção contra espiritos e criaturas malignas. Quem poderia praticar artes arcanas aqui neste porão?\nReceba 1 Pista.
+EventDepositoRitualA2.button1,Continuar
+EventDialogoTuristaB.button1,Continuar
+EventDialogoTuristaB.button2,Continuar
+EventDialogoTurista.button3,Cancelar
+EventDialogoJenniferB2Sucesso.text,Jennifer está visivelmente desconfortavel, mas ela concorda em te ajudar na investigação.\n''Eu sou a namorada de Thomas, já estou ficando muito preocupada. Ele estava distante na ultima semana, andava quieto. Acho que estava escondendo algo de mim, mas não entendo o porquê e nem sei sobre o que era.''\nEla segue limpando o balcão a sua frente com a cabeça baixa.
+UIPROLOGOcontinuar.button1,Continuar
+UIPROLOGOcontinuar.uitext,CONTINUAR
+UIIntroContinuar.button1,Continuar
+UIIntroContinuar.uitext,CONTINUAR
+EventInicio6.text,Um homem loiro de roupas claras, está sentado no banco da estação olhando para seu relógio dourado. Este é Enzo Alberto, um dos seus suspeitos.
+EventInicio8.text,Algumas crianças brincam sozinhas a beira de um lago. Coloque o marcador de pessoa como indicado. Em seguida coloque os 2 marcadores de avistamento.
+EventInicio9.text,A estação já encontra-se fechada. Coloque os 3 marcadores de procura como indicado. Em seguida coloque um marcador de avistamento abaixo.
+EventInicio10.text,Parece que o assistente do prefeito está sentado no banco a sua espera. Coloque o marcador de pessoa como indicado.
+TokenAssistente.text,Um homem de bigode está sentado com uma carta em mãos.
+TokenAssistente.button1,{action} Falar
+EventEstacaoCartazLer.button2,Continuar
+EventAssistenteA.text,Ele lhe entrega a carta e se apresenta a você:\n''Meu nome é Eugene e estas são as instruções do prefeito Robert. Ele irá encontrar com você em uma cerimonia da familia Stones, os convites com o endereço estão juntos com as anotações Esta festa será realizada amanhã e precisamos ter uma conclusão já desenvolvida para aproveitar o momento perfeito, onde todos os suspeitos estarão presentes.\nNós ja investigamos a casa onde o Thomas morava, não achamos nenhuma pista indicativa do que pode ter acontecido. Sugerimos que comece procurando evidências deste mistério aqui pelo centro da cidade.''
+EventAssistenteA.button1,Continuar
+EventAssistenteA1.text,Junto com as anotações, parece que o prefeito te entregou um diario contendo alguns registros. Receba o item evidencia Diario Antigo. O jogador que conter o item Diario Antigo pode interagir com ele utilizando o aplicativo.
+EventAssistenteA1.button1,Continuar
+EventAssistenteA2.text,Eugene se despede e sai andando em direcão a cidade. Remova o marcador de pessoa do tabuleiro.
+EventAssistenteA2.button1,Continuar
+EventDiarioAntigo.text,O diário entregue a você contem alguns registros a serem lidos.
+EventDiarioAntigo.button1,{action} Ler
+EventDiarioAntigo.button2,Cancelar
+EventLerDiarioAntigo.text,Este diario pertencia a Thomas Nilmann, o primo desaparecido do prefeito Robert. Você analisa os textos e também a caligrafia empregada, pois lhe parece um tanto arrojado.\nMuitas experiências pessoais e profissionais foram registradas aqui, parece que Thomas era escritor, o que explica a sua escrita bem desenvolvida.\nA vítima faz relatos de um relacionamento amoroso com Andy Stones na sua juventude e sobre uma outra garota que foi pouco mencionada, pois parece que as páginas seguintes foram arrancadas do diário.\nA ultima nota foi tomada um dia antes do seu desaparecimeto e faz referência a um colar que ele usava. Parece que alguém estava interessado nesta peça e lhe propunha negociações insistentemente.\nEm nenhum momento, ele demonstrou a intenção ou algum motivo para sair da cidade sem avisar.\n\nReceba 1 pista.
+EventLerDiarioAntigo.button1,Continuar
+EventEstacaoCartazLerA.text,Olhando novamente, você nota outros recortes por baixo destes cartazes. Ao retirar um deles, outro caso de desaparecimento está colado aqui, porem é mais antigo. Trata-se de uma mulher jovem por volta dos 20 anos, o rosto entristecido dela te comove por alguma razão.\n\nReceba 1 pista e remova o marcador de procura.
+EventEstacaoCartazLerA.button1,Continuar
+EventEstacaoCartazLerB.button1,Continuar
+EventEstacaoCartazLerB.text,Sendo primo do prefeito Robert, provavelmente ele deve ser uma pessoa importante aqui na cidade. 
+EventDialogoTuristaB2.text,Percebendo que você não entendeu, ele continua sorrindo:\n''Estou aqui à estudo. A cidade possui uma energia muito poderosa e quero me conectar a ela. Nessa região, se fechar os seus olhos, irá ouvir o mar cantando enquanto o vento dança nas ruas aos arredores.''\n\nEle te dispensa e volta a sua atenção aos papéis.
+EventDialogoTuristaB2.button1,Continuar
+EventDialogoJenniferColar.button2,Cancelar
+EventEnzoAB.button3,Cancelar
+EventEnzoAB.button1,{action} O que veio fazer na cidade?
+EventEnzoAB.button2,{action} Você conhecia Thomas Nilmann?
+EventEnzoA1.text,''Eu venho de uma cidade portuária assim como Safira.\nNós trouxemos um carregamento para a loja de antiguidades na semana passada. Decidi ficar mais uns dias por aqui e voltar só na próxima viagem. Este lugar me parece bem interessante.''\n\nReceba 1 pista.
+EventEnzoAB1.text,''Já estou sentado aqui há algum tempo, devem ter se passado horas. Preciso ir agora, boa sorte com a sua investigação.''\n\nRemova o marcador de Enzo Alberto do tabuleiro.
+EventEnzoB1.text,''Thomas é o homem que está desaparecido não é? Eu nunca conversei com ele.\nA única vez que o vi, estava discutindo com a sua namorada e com a esposa daquele milionário no restaurante. Estranho, mas as moças me pareceram um tanto ciumentas.''\n\nReceba 1 pista.
+EventLagoEnzoAB.text,O estrangeiro está sentado em um banco fitando as aguas turvas do lago a frente:\n''Não percebi você chegando. O que aconteceu?''
+EventLagoEnzoAB.button1,{action} Por que você sentou aqui?
+EventLagoEnzoA.text,''Eu já estava a caminho do hotel, mas... Deixa pra lá, já estou com sono, vou me retirando agora.''\n\nEnzo Alberto se levanta do banco e sai andando até desaparecer em meio a neblina. Remova o marcador de pessoa do tabuleiro.
+EventLagoCorpoAparecer.text,Voce se pergunta porquê Enzo estava olhando tão fixamente para o lago?\nSeu sexto sentido pode estar apurado, talvez seja melhor investigar.\n\nColoque o marcador de procura como indicado.
+EventEsposaABC.text,Uma mulher alta usando joias, para em frente a um mostruário olhando os objetos expostos.\n\n''Boa noite, Investigadores. Em que posso ajudá-los?''
+EventVendedorB1sucesso.text,''A familia Stones é nossa melhor cliente. A Senhora Andy Stones queria exclusividade em alguns artigos da loja, mas infelizmente isso não é possivel. Tenho certeza que ela irá entender.''\n\nReceba 1 Pista.
+EventVendedorB1.button1,Continuar
+EventVendedorB1.button2,Botão2
+EventVendedorB1falha.text,O vendedor começa a sorrir estranhamente:\n''Estavamos discutindo os preços de alguns produtos, nada demais.'' 
+EventVendedorB1falha.button1,Continuar
+EventVendedorS.button1,{action} Vocês trazem estes objetos ilegalmente pelo Cais?
+EventVendedorS1.text,''Não é aconselhavel fazer acusações deste porte a uma loja histórica aqui da cidade. Como sou apenas vendedor, não me interessa de onde vem os artigos mas posso garantir que não são roubados.''
+EventVendedorS2.text,Notando que os clientes estão mais afastados, ele te fala em tom de voz baixo:\n''Se quer saber, Thomas comprou um colar aqui na semana passada. Isso é a unica coisa que sei e talvez possa ajudá-los.''\nReceba 1 Pista.
+TokenCaixasObjetosAntigos.text,Um caixote amarrado com cordas foi colocado de canto entre outros.
+EventCaixasObjetosAntigosBsucesso.text,Você força o canto da tampa e consegue arrobar o caixote. Dentro dele, escondido entre diversos panos e tecidos você encontra algo excentrico. Receba o Item especial Estatua Grotesca e descarte o marcador de procura do tabuleiro.\n\nReceba 1 Pista.
+EventCaixasObjetosAntigosC.text,A Estatua Grotesca foi escondida nesta caixa. Provavelmente estão contrabandeando estes itens pelo cais e trazendo escondido para a cidade. Contudo, você vê uma nota de mercadoria assinada e liberada pelo prefeito Robert.\n Talvez você consiga alguma informação na loja de artigos do centro da cidade.
+EventSupostaArmaItem.text,Você encontra em meio estas caixas uma garrafa de bebida. Remova o marcador de procura do tabuleiro e receba o item comum Whiskey.\nEsta pode ser uma pista sobre o caso Thomas.
+EventLagoEnzoB.text,''Me desculpe, a esta hora eu já deveria estar recolhido. Amanhã conversamos mais.''\n\nEnzo guarda no bolso de sua camisa um relógio dourado e sai em direção ao hotel.\nRemova o marcado de pessoa do tabuleiro.
+EventEsposaA1.text,Ainda de costas ela te responde:\n''Sim, Investigadores. Eu sou Andy Stones, a esposa de Franklin e sabemos tudo que acontece por aqui. Bem..... quase tudo... já que Thomas ainda não foi encontrado. Gostaria de saber o que realmente aconteceu...''\n\nA moça se vira e continua analisando os objetos.
+EventEsposaBC.button2,{action} Você conhecia Thomas?
+EventEsposaB.button1,{action} Por que estavam dicutindo?
+EventEsposaC.button1,{action} Você conhecia Thomas?
+EventEsposaBC.text,''Posso ajudá-los!?''
+EventEsposaB.text,''Posso ajudá-los!?''
+EventEsposaC.text,''Posso ajudá-los!?''
+EventEsposaABC.button4,Cancelar
+EventEsposaBC.button3,Cancelar
+EventEsposaB.button2,Cancelar
+EventEsposaC.button2,Cancelar
+EventVendedorS.button2,Cancelar
+EventVendedorAB.button3,Cancelar
+EventVendedorA.button2,Cancelar
+EventVendedorB.button2,Cancelar
+EventVendedorS0.text,''Espero que possa ter ajudado.''
+EventEsposaB1.text,Ela para por um momento como se refletisse:\n''Discutindo preços, o que mais seria?''
+EventEsposaABC.button3,{action} Você conhecia Thomas?
+EventDetetive0.text,''O que você está fazendo?! suma daqui agora!!''
+EventDetetiveA1.text,''Bebado, eu!?? Não venha com essa história de novo Jennifer, eu estou bem...''\nO Homem tenta não se escorar nas caixas, mas cambeleia e se agacha até o chão para não cair.\n''Anda logo, suma daqui...Hic...''
+EventDetetiveB1.text,''Qual o problema Jennifer, de novo as mesmas perguntas de sempre!? Hic... O Robert não confia em mim, vou incriminar ele!! Hic...\nVolta pra mim, você me disse que não ama mais ele.''
+EventDetetiveC.text,''Sim, até ela me deixar... hic... meu grande amor, oh meu grande amor. O unico amor verdadeiro que encontrei na minha vida, foi dentro de uma garrafa de whyskey!! Hic....''
+EventWilliam0.text,O jovem sentado a mesa parece estar distante em seus pensamentos.\n''Preciso terminar o meu jantar.''
+EventWilliamA.button2,Cancelar
+EventDetetiveAB.button3,Cancelar
+EventDetetiveABC.button4,Cancelar
+EventWilliamA.text,''Boa noite.'' O jovem se dirige a você enquanto olha fixamente para seu jantar.
+EventWilliamA.button1,{action} Você conhecia o Thomas?
+EventWilliamA1.text,Você nota que a comida no prato de William ainda não foi tocada. Ele continua olhando para um ponto fixo e não esboça reação alguma para a sua pergunta.\nOlhando atentamente, você consegue perceber que a manga direita do seu casaco está um pouco chamuscada.\nReceba 1 Pista.
+EventFrank0.text,''Gostaria de encerrar o jantar com meu filho William. Podemos conversar amanhã, se assim desejarem.''
+EventFrankAB.text,Um homem alto usando roupas luxuosas e joias chama a sua atenção. Ele interrompe o seu jantar para lhe receber:\n''Boa noite investigador, pensei que fosse o Detetive Leonidas quando você entrou?''
+EventFrankAB.button3,Cancelar
+EventFrankA.button2,Cancelar
+EventFrankB.button2,Cancelar
+EventFrankAB.button1,{action} O que pensa sobre o desaparecimento de Thomas?
+EventFrankA1.text,''Estou morando aqui a 20 anos, foram pouquissimos crimes que aconteceram desde então. Thomas era amigo de infancia de minha esposa Andy e estava muito quieto na ultima semana. Não duvido que ele mesmo tenha saído da cidade por algum motivo que desconhecemos.''\nReceba 1 Pista.
+EventFrankAB.button2,{action} Tem notado algo diferente na cidade?
+EventFrankB1.button2,Continue
+EventFranklinB1sucesso.text,''Com exceção ao desaparecimento de Thomas, nada.\nEu e o prefeito Robert estamos traçando novos projetos para nossa cidade. Os cidadãos de Safira tem se mostrado basante entusiasmados com as nossas idéias.\nVamos brindar amanhã esta união no meu aniversário de casamento.\nContamos com a sua presença.''
+EventFranklinB1sucesso.button1,Continuar
+EventFranklinB1falha.text,''Eu e o prefeito Robert estamos traçando novos projetos por aqui, talvez esta seja a novidade. Os cidadãos de Safira tem se mostrado basante entusiasmados com as nossas idéias.''
+EventFranklinB1falha.button1,Continuar
+EventFrankA.text,''Pois bem, mais alguma pergunta?''
+EventFrankB.text,''Pois bem, mais alguma pergunta?''
+EventFrankA.button1,{action} O que acha de Thomas ter desaparecido?
+EventFrankB.button1,{action} Tem notado algo diferente na cidade?
+Eventmito1vozes.text,O fato da cidade estar deserta, te trás a sensação de ouvir vozes em cada canto que você vai. Sem efeito imediato.
+Eventmito10chuvaA.button1,Sim
+Eventmito10chuvaA.button2,Não
+Eventmito10chuvaB.text,Ao se colocar de pé novamente, sua atenção é voltada para o grande lago que agora está totalmente tomado por sangue. Olhando fixamente para ele, tentaculos começam a emergir das aguas sobre a silueta de um monstro gigante que você tem a certeza de que não existe neste mundo.\nSofra 2 Horrores.
+Eventmito10chuvaB.button1,Continuar
+Eventmito16encerrar.button1,Continuar
+Event14monstro.button1,Continuar
+Eventmito7monstro.button1,Continuar
+SpawnHunter.text,Como se fosse atraído para a cidade, uma criatura escamosa surge nas areias da praia. Faça aparecer um Abissal Caçador no local indicado.
+SpawnHunter.button1,Continuar
+Eventmito9enxaqueca.button1,Continuar
+Eventmito11coral.button1,Continuar
+Eventmito9enxaqueca.text,{rnd:hero} se encolhe mesmo diante da luz mais fraca, sofrendo com uma dor de enxaqueca terrivel. ({strength}:2) Se passar, a enxaqueca é apenas uma distração a ser superada. Se falhar, sua cabeça pulsa entre as mãos fazendo com que perca o foco da missão. \nSofra 2 danos virados para baixo e fique Desnorteado(a).
+Eventmito21coracao.text,Por um instante, você ouve as batidas de um coração. A pulsação vai aumentando e a intensidade do som deixando o ambiente ainda mais macabro. Sem efeito imediato.
+Eventmito11coral.text,Um coral de vozes desfila pelos becos da cidade por onde você passa. São cânticos afinados e uníssonos que te causam calafrios na espinha. Sem efeito imediato.
+EventFinaldaPrimeiraParte3.text,Mesmo diante das afirmações de Eugene, o assistente de Robert, você aproveita durante o dia para investigar o quarto de Thomas tentando encontrar alguma evidência. Após uma busca minuciosa, não foi possivel encontrar nada diferente que te ajude no caso.
+EventINTERLUDIO3.text,Coloque 2 marcadores de exploração como indicado.
+EventINTERLUDIO4.text,O Prefeito Robert está sentado em uma poltrona com uma expressão de angustia em seu rosto. Coloque o marcador de pessoa como indicado.
+EventINTERLUDIO4.button1,Continuar
+EventINTERLUDIO5.text,Vocês terão aproximadamente 1 hora para investigar a mansão. Encerrando o prazo, todos os suspeitos estarão reunidos na Sala de Estar e o Prefeito irá lhe conceder o juízo final sobre o culpado. Depressa!
+Event2HallExplorar.text,Este é o salão de entrada da mansão Stones. Coloque o tile {MAD20} Lobby como indicado e um marcador de parede no canto esquerdo. Remova os marcadores de exploração que levam até o Corredor.
+TokenGaveta.text,Uma escrivaninha de madeira contém alguns livros.
+TokenGaveta.button1,{action} Examinar
+EventGavetaA.text,Você encontra um fundo falso em uma das gavetas. Nela, um painel com números pode ser manuseado. Toque para resolver o quebra-cabeças usando {observation}.
+EventGavetaA.button1,Continuar
+PuzzleSalaSecreta.button1,Tentar
+Event2PortaPatioExpo.text,Um som estridente ressoa da porta que se abre. Você se depara com uma estufa de flores úmidas e sombrias. Coloque os marcadores de procura como indicado. 
+Event2PrefeitoA.button1,{action} Fazer perguntas sobre o Thomas
+Event2CorredorConvites0.text,Você pega uma série de convites para a cerimonia de hoje. Em um deles você nota que estava destinado a Thomas. A tinta destes convites parecem estar frescas, como se fossem escritos recentemente.\nReceba 1 pista e descarte o marcador de procura.
+EventRevelarSalaSecreta.text,Uma estante é arrastada para frente através de um mecanismo na parede. Atrás dela, um quarto secreto se revela. Coloque um marcador de passagem secreta como indicado.\nColoque o tile {MAD20} Quarto 2 como indicado.
+EventRevelarSalaSecreta.button1,Continuar
+Token2CozinhaArmario.text,Tem um bilhete escrito ''MANTIMENTOS'' no armario.
+Event2CozinhaArmarioFalha.text,Você não consegue abrir o cadeado com seus truques. Seria melhor não chamar a atenção de ninguem por hora. Remova o marcador de procura do tabuleiro.
+EventCozinhaArmarioSucesso.text,Usando seus truques, você consegue abrir o armario sorrateiramente. Em meio aos ingredientes culinários que estão armazenados, um dos potinhos chama a sua atenção. Ele contem uma droga perigosa e conhecida, usada geralmente para dopar o usuário.\nReceba 1 Pista.
+Event2PatioFlores1.text,Em meio as plantas você encontra algo inusitado. Uma copia identica do colar de Thomas estava escondida atrás dos vasos, porém mal colocada. Seja quem tenha inserido este objeto aqui, o fez de forma proposital. Receba o item especial Evidencia Circunstancial e remova o marcador de procura.\nReceba 1 Pista.
+Event2PatioFlores2.text,Em meio as plantas você encontra algo inusitado. Uma copia identica do colar que você encontrou estava escondida atrás dos vasos, porem, este parece ser o original. Receba o item especial Evidencia Circunstancial e remova o marcador de procura.\nReceba 1 Pista.
+Event2PatioFlores2a.text,Já está próximo da hora de reunir todos e dar inicio a cerimonia de hoje. Não será possivel interrogar ninguem sobre este colar encontrado.
+Event2PatioFlores3.text,Ao analisar as plantas a sua frente, você logo percebe que todas elas estão queimadas em suas extremidades. Da maior até a menor, todas foram incineradas em alguma parte. Seja quem tenha feito isso, é uma atitude incompriensivel.\nReceba o item especial Evidencia Circunstancial e remova o marcador de procura.\nReceba 1 pista.
+Event2PatioFlores0.text,Em meio as plantas você encontra algo incomum. Um tipo de colar estava escondido aqui atrás. Que tipo de colar seria este?\nReceba 1 Pista e remova o marcador de procura.
+EventCruzSagradaInfo.text,Talvez você consiga obter informações sobre este colar com a pessoa certa.
+EventCruzSagradaInfo.button1,Continuar
+EventDialogoJenniferColarA.text,A moça arregala os olhos e toma o colar de suas mãos rapidamente! \n''Onde você encontrou isso!!??''\nEla o analisa franzendo a sombrancelha, porém algo esta errado:\n''Este colar é falso. Não é o que Thomas usava.''
+EventDialogoJenniferColarB.button1,Continuar
+EventQuartoRevelar.text,Um criado mudo ao lado da cama contém diversos frascos de vidro. Coloque um marcador de procura como indicado.
+EventQuartoRevelar.button1,Continuar
+EventQuartoRevelarA.text,Um roupeiro esta com uma das portas entre abertas. Coloque um marcador de procura como indicado.
+EventQuartoRevelarA.button1,Continuar
+Event2JenniferAconfianca.text,Ela respira fundo e sente que não conseguirá mais esconder de você.\n''Eu estou com ela para me proteger, é claro. Se o culpado pelo desaparecimento está entre nós, preciso estar preparada.''\nReceba 1 Pista.
+Event2JenniferA.text,''Não sei do que você está falando.'' \nEla desconversa e tenta passar pela porta onde você está.
+Event2JenniferA.button1,Trancar passagem
+Event2JenniferA.button2,Deixá-la
+Event2JenniferAB.button3,Cancelar
+Event2JenniferAB.button1,{action} O que faz com uma arma aqui!?
+Event2JenniferAB.text,''Não sabe bater na porta antes de entrar!?''
+EventJenniferA0.button1,Continuar
+EventJenniferA1.text,Você tranca a passagem dela tentando-a convencer de responder as suas perguntas. Teste {influence}.
+EventJenniferA0.text,Ela segue rapidamente em direção a porta e desvia de você:\n''Agora não é hora, a cerimonia esta prestes a começar.''\nRemova o marcador de pessoa do tabuleiro.
+EventJenniferA1.button1,Continuar
+EventJenniferA1.button2,Continuar
+EventJenniferA2.text,Você tenta abordar Jennifer de outra maneira, mas ela surta com a sua pressão e começa a gritar no banheiro.
+EventJenniferA2.button1,Continuar
+TokenFrankBanheiro.text,''Peço que sejam mais civilizados enquanto estiverem aqui na minha casa, por favor.''
+TokenFrankBanheiro.button1,Continuar
+EventJenniferA3.text,Em resposta aos gritos da moça, Franklin Stones aparece para resolver o mal entendido. Coloque o marcador de pessoa como indicado.
+EventJenniferA3.button1,Continuar
+EventJenniferA4.text,Jennifer pede lincença e sai do banheiro visivelmente irritada. Remova o marcador de pessoa do tabuleiro.
+EventJenniferA4.button1,Continuar
+Event2BilharExplorarvar.text,William Stones esta sentado em um sofa no canto da sala. Coloque o marcador de pessoa como indicado.
+Event2BilharExplorarvar.button1,Continuar
+Event2WilliamAfalha.text,Os dois continuam jogando em silêncio. Para não criar um clima constrangedor, você decide parar de observá-lo.
+Token2PortaPatio.text,Uma porta robusta de metal esta trancada.
+Event2PortaPatioTeste.text,Esta porta possui um mosaico desfragmentado na parte central. Resolva o quebra-cabeça usando {lore}.
+Token2PortaSalaDeLeitura.text,Esta porta leva até a Sala de Leitura.
+Event2SPAExplorar.text,Um comodo amplo se estende a sua frente. Coloque o tile {MAD20} Sala de Leitura como indicado e um marcador de parede como indicado.
+Event2SPAExplorar2.text,Enzo estava mexendo em um arquivo e para ao notar a sua presença. Coloque o marcador de pessoa como indicado.
+Event2EnzoSPA.text,''Eh... Boa noite, como está você!?''
+Event2EnzoSPA.button1,{action} Por que estava mexendo neste arquivo!?
+Event2EnzoSPA.button2,{action} O que está achando da festa?
+Event2EnzoSPAA.text,''Ehh... eu estava procurando uma coisa, mas não está aqui, acabei de olhar.... Agora tenho que ir, até mais.''\nEnzo sai rapidamente pela porta evitando sua abordagem. Remova o marcador de pessoa do tabuleiro.
+Event2EnzoSPAB.text,''Acho irônico como podem festejar diante de tantos casos de desaparecimento... Parece que todos nesta cidade são frios afinal de contas.''
+Event2EnzoSPAB.button1,O que você quis dizer com isto?
+EventEnzoSPAC.text,''São mágoas passadas, talvez eu devesse realmente deixar isso tudo para trás... ou não? De qualquer forma, aproveite a festa, talvez você tenha o que comemorar.''\nEnzo lhe parece abatido e com um gesto se despede.\nRemova o marcador de pessoa do tabuleiro.
+EventEnzoSPAC.button1,Continuar
+Event2EnzoSPAA1.text,Parece que ao sair apressado, Enzo deixou cair uma nota de seu bolso. Coloque o marcador de procura como indicado.
+TokenNotaEnzo.text,Um bilhete está caído no chão.
+TokenNotaEnzo.button1,{action} Pegar
+EventNotaSPA.text,Este recorte é uma materia reportando sobre o desaparecimento de uma jovem estrangeira cerca de 6 meses atrás. Segundo os relatos, o nome dela era Helena Whitebell e desapareceu sob circunstancias misteriosas. Seu paradeiro ainda é desconhecido e o corpo também não foi encontrado. A srta Helena se relacionou com um jovem que conheceu em sua viagem para Safira e estava estabelecida na cidade, quando desapareceu sem deixar vestigios.\n\nReceba 1 pista.
+EventCorpoVariavel.text,Você fecha os olhos esperando a morte inevitável, mas ao abrí-los novamente, você percebe que a chuva e as águas voltaram ao normal. Apesar de tudo ter sido uma ilusão, algo de real emergiu do lago. Coloque um marcador de procura como indicado.
+EventCorpoVariavel.button1,Continuar
+Event2Frank0.text,''Se divirtam, a cerimonia ja vai começar.''
+Event2FrankAB.button1,{action} Como era a sua relação com Thomas?
+Event2FrankA.text,''Vejo que está um tanto obsecado pelo seu caso. Escute uma coisa, Thomas não era o tipo de pessoa que você imagina. Isso não tira a gravidade do seu desaparecimento, mas precisa ser dito. Aproveite a festa e conheça melhor as pessoas daqui, talvez você consiga enxergar as coisas de outra forma.''\nReceba 1 pista.
+Event2FrankAB.button2,{action} Qual o motivo da comemoração?
+Event2FrankB.text,''Esta é a data de aniversário do nosso casamento. Somos residentes da cidade há muito tempo, já se tornou uma tradição chamar os moradores para comemorar este momento tão alegre. Espero que aproveite de nossa hospitalidade.''
+EventFrankA0.text,''Pois não...''
+EventFrankA0.button1,{action} Como era a sua relação com Thomas?
+EventFrankB0.button1,{action} Qual o motivo da comemoração?
+Event2FrankAB.text,''Investigador, que bom ver que conseguiu nos agraciar com a sua presença neste noite tão importante?''
+EventFrankB0.text,''Pois não...''
+Event2BilharExplorar.text,Você entra vê uma sala de jogos a frente. Coloque o tile {MAD20} Sala de Bilhar como indicado.
+Event2WilliamA.text,William parece distante enquanto joga. Ele não demonstra ter percebido a sua chegada.
+TokenWillvar.button1,Continuar
+EventWillvarA.text,William parece estar distante olhando para a parede, sequer percebe a sua aproximação.
+EventWillvarA.button1,{action} Observá-lo
+EventWillvarA1.text,O jovem parece estar concentrado em seus pensamentos e não muda a sua expressão. Ao se aproximar dele, você sente um leve cheiro de fumaça impregnado neste local, parece que alguém estava fumando por aqui.\nReceba 1 pista.
+EventWillvarA1.button1,Continuar
+EventWillvar0.text,Nestas condições, William não conseguirá contribuir com mais informações.
+EventWillvar0.button1,Continuar
+Event2WilliamA1.button2,Botão2
+Event2WilliamAfalhavar.text,Mesmo jogando sozinho, o jovem mantém seu olhar fixo e distante, esperando a aprovação de alguém.
+Event2WilliamAfalhavar.button1,Continuar
+EventOcultarCorpoThomas.text,Mesmo antiético, você decide por ocultar o corpo de Thomas neste momento até o final da investigação. O ar de mistério que paira sobre esta cidade, é muito maior do que imaginava quando aceitou assumir este caso. Neste momento, nem mesmo o prefeito Robert está livre de suspeitas.
+EventOcultarCorpoThomas.button1,Continuar
+Event2CozinhaExplorar.text,Da para sentir o cheiro dos petiscos que estão sendo preparados. Coloque o tile {MAD20} Cozinha como indicado.
+Event2CozinhaExplorar3.text,Andy Stones está coordenando sua cozinheira nos preparativos. Coloque o marcador de pessoa como indicado.
+Event2CozinhaExplorar4.text,Um armário grande esta cadeado com uma corrente. Coloque o marcador de procura como indicado.
+Event2CozinhaExplorar5.text,Coloque o marcador de exploração como indicado.
+Event2AndyA1.text,Ela arruma o seu elegante vestido azul, tentando mudar o teor da conversa. Você tenta insistir para obter informações, teste {influence}.
+Event2AndyA.button1,{action} Por que estava chorando?
+Event2AndyA.text,Andy está com uma com uma expressão de tristeza em seu rosto.
+Event2AndyB.text,Andy está com uma com uma expressão de tristeza em seu rosto.
+Event2AndyB.button1,{action} Posso fazer algumas perguntas?
+Event2AndyB1.text,''Se for em relação ao Thomas, não estou pronta para responder. Nós somos apaixonados...digo, ele ainda é apaixonado por mim... Jennifer sabia disso por isso nunca gostou de nos ver juntos, mesmo como amigos. Já que ela é a pessoa mais próxima dele, por que não faz as perguntas a ela?''
+Event2AndyB1.button1,Continuar
+Event2AndyA.button2,Cancelar
+Event2AndyB.button2,Cancelar
+Token2Avistamento.text,O Investigador que interagiu com este marcador está em qual espaço?
+Token2Avistamento.button1,Corredor
+Token2Avistamento.button2,Pátio
+EventAvistamentoMansaoA.text,Você olha pela janela e vê o patio nos fundos da mansão. Perto de uma estufa, você ve o Detetive Leonidas caminhando em direção a um deck de madeira examinando o seu coldre, que parece estar vazio.\nEle senta em uma cadeira próximo a casa e acende um cigarro para fumar.\nMantenha o marcador de avistamento aqui, a janela ainda está fixa, um Investigador não pode usar pontos de movimento para passar através deste espaço.
+EventAvistamentoMansaoA.button1,Continuar
+EventAvistamentoMansaoB.text,Você olha para a janela do segundo andar cuja vista da direto para o corredor, enquanto o som do vento ressoa através das árvores do patio. Pelos vidros, uma aparição familiar esta inerte com uma expressão de angustia, é a jovem fantasma.\nEsfregando os olhos na tentativa de enganar a si mesmo que tudo não passa de uma ilusão, você percebe que é real. A garota atravessa uma das paredes com o seu corpo espectral e sai da sua vista.\nMantenha o marcador de avistamento aqui, a janela ainda está fixa, um Investigador não pode usar pontos de movimento para passar através deste espaço.\n\nSofra 1 horror voltado para baixo.
+EventAvistamentoMansaoB.button1,Continuar
+EventDetetiveAB.text,Um homem aparece em meio ao Cais cambaleante. Ele se escora nas caixas de carga do Deck e lhe dirige a palavra:\n''O que você está olhando!? Vá investigar o seu caso, já que foi contratado pelo prefeito.''
+Event2DetetiveAB.button3,Cancelar
+Event2DetetiveA1.text,''Ele já te contou que tinha um jornalista local manipulando as notícias para ele?\nHouve outros casos de desaparecimento que não conseguimos solucionar aqui na cidade, mas todos estes foram abafados de maneira proposital.\nA cidade está amaldiçoada e todos nós estamos corrompidos. Ainda assim, talvez ninguem tenha relação com o desaparecimento do Thomas, pois ele não é o primeiro a sumir aqui nesta região.\n\nReceba 1 pista.
+Event2DetetiveA1.button1,Continuar
+EventDetetiveABC.text,Um homem aparece em meio ao Cais cambaleante. Ele se escora nas caixas de carga do Deck e lhe dirige a palavra:\n''O que você está olhando!? Vá investigar o seu caso, já que foi contratado pelo prefeito.''
+TokenCriadomudo.text,Pequenos vidros estão sobre uma cômoda.
+TokenCriadomudo.button1,{action} Examinar
+EventComponentesRitualisticos.text,Guardado em uma das gavetas, você encontra objetos escondidos. Receba o item especial Componentes Ritualisticos e descarte o marcador de procura.
+EventComponentesRitualisticos.button1,Continuar
+TokenRoupeiro.text,Um roupeiro velho está no canto do quarto.
+TokenRoupeiro.button1,{action} Abrir
+EventRoupeiroA.text,Você abre a porta e encontra um livro vermelho sobre uma das divisórias. Esta enciclopédia, levanta um estudo minucioso sobre objetos mágicos, mais especificamente sobre amuletos de proteção.\nSem tempo para estudar estas escritas, você vira as páginas rapidamente e encontra uma sequência de fotos destes talismãs que possuem todos um formato de cruz.\n\nReceba o item especial Evidência Fotográfica e em seguida descarte este marcador de procura.
+EventRoupeiroA.button1,Continuar
+EventRoupeiroB.text,Você abre a porta e encontra alguns objetos dentro do roupeiro. Entre eles, uma adaga contendo runas de proteção está em uma caixinha ao canto. Receba o item comum Punhal Ritualístico e descarte o marcador de procura.
+EventRoupeiroB.button1,Continuar
+EventSedativos.text,Os frascos, contém uma substância ilícita usada para dopar o usuário. Receba o item comum Sedativos e descarte o marcador de procura.
+EventSedativos.button1,Continuar
+Event2Prefeito0.button1,Continuar
+Event2PatioPassagemExpo1.text,Atrás da estande, você descobre algo mais interessante que as ferramentas. Ao puxar para o lado, uma parede falsa é revelada dando acesso a um tunel. Descarte o marcador de procura e coloque uma Passagem Secreta no local indicado.
+Eventmito25influencia.text,O tempo está passando, seu nervosismo aumenta. As vozes em sua cabeça já são um misterio para você. Seria seu psicologico, ou as vozes do oculto te desafiando? De qualquer maneira, você tenta convencer a si mesmo de que tudo logo vai passar. Cada Investigador sofre 2 Horrores, negados por {influence}.
+EventmitoTHOMAS.button1,Continuar
+Eventmito29visaoturva.text,A visão a sua frente se torna turva e cada vez que você esfrega os seus olhos parece piorar. A presença do mal cresceu muito dentro deste lugar desde o momento que você chegou, não resta mais tempo. Cada Investigador sofre 2 Horrores, negados por {will}
+Eventmito27ossos.text,{rnd:hero} sente seus ossos estralando por todo seu corpo. Eles se deslocam involuntáriamente e você não consegue evitar. Sofra 2 Danos virados para baixo, negados por {strength}. Se sofrer pelo menos 1 Dano, vire um Dano para cima.
+EventLagoEnzoVARCorpo.text,Voce se pergunta porquê Enzo estava olhando tão fixamente para o lago?\nPoderia estar ligado a algo da sua investigação?
+EventLagoEnzoVARCorpo.button1,Continuar
+Event2EscritorioExplorar2.text,Um livro aberto e uma escrivaninha chamam a sua atenção. Coloque os marcadores de procura como indicado.
+EventEscritorioExplorar3.text,Coloque o marcador de exploração como indicado.
+EventVendedorC.text,''Boa noite Senhores, somos a casa Luna, especialista em antiguidades. Em que posso ajudá-los?''
+EventVendedorC.button1,{action} O que sabe sobre este colar?
+Event2Prefeito0.text,O prefeito está ansioso e não tem mais informações para contribuir.
+Event2PrefeitoA.text,Sentado em uma poltrona, o prefeito está com a sua camisa enxarcada de suor e um semblante nervoso.
+Event2PrefeitoA1.text,Angustiado, o prefeito puxa as mangas de sua camisa para falar com você:\n''O Thomas era um escritor, isso já diz muito sobre ele. Meu primo não abria mão de ser um cavalheiro, gostava de ser bem visto e falado por todos.''
+Event2PrefeitoA1.button1,Continuar
+Event2PrefeitoAteste.text,Você fica em duvida se os gestos de Robert são em razão de sua ansiedade ou por estar omitindo alguma informação. De qualquer forma você tenta convencê-lo de compartilhar tudo que sabe. Teste {influence}.
+Event2PrefeitoAteste.button1,Continuar
+Event2PrefeitoAteste.button2,Continuar
+Event2PrefeitoAfalha.text,''Estou ciente que preciso ser verdadeiro, mas esta é a contribuição que posso lhe dar. Thomas nunca fez mal algum para os moradores de Safira, quanto a isso posso te assegurar.''
+Event2PrefeitoAfalha.button1,Continuar
+Event2PrefeitoAsucesso.text,Para que o caso seja solucionado, você o convence a ser totalmente transparente nos detalhes. O prefeito Robert solta um suspiro de ar pesado sem olhar nos seus olhos e busca coragem para seguir em frente:\n''Esta bem, concordo com você. Todos temos nossos erros e nossas marcas, Thomas não era diferente.\nAs mulheres sempre foram seu ponto fraco, por isso seus relacionamentos não eram duradouros. Foi assim com Andy, com Helena e provavelmente com Jennifer já estava encaminhando para o mesmo destino.\nPorém, nada retira o que falei sobre a sua conduta. Meu primo nunca fez nenhum mal aos moradores de Safira.''\n\nReceba 1 pista.
+Event2PrefeitoAsucesso.button1,Continuar
+Event2PrefeitoA.button2,Cancelar
+Event2FrankAB.button3,Cancelar
+EventFrankA0.button2,Cancelar
+EventFrankB0.button2,Cancelar
+Event2WilliamA.button2,Cancelar
+EventWillvarA.button2,Cancelar
+Event2EnzoSPA.button3,Cancelar
+EventRuaEsquerdaRevLojaAvistada.text,A esquina de uma rua termina com a fachada de um restaurante. Coloque os tiles {c:TileRestaurante}, {c:TileRuaEsquerda} e {c:TileEsquinaEsquerda} como indicado.
+EventRuaEsquerdaRevLojaAvistada.button1,Continuar
+EventEsquerdaReveladaBaixoDocasAvistada.text,Um deposito grande jaz próximo ao lago central. Coloque o Tile {c:TileDeposito} e o marcador de exploração como indicado.
+EventEsquerdaReveladaBaixoDocasAvistada.button1,Continuar
+EventDepositoRevelarVariavel.button1,Continuar
+EventDepRev2.text,Coloque o marcador de avistamento como indicado.
+EventDepRev1.button1,Continuar
+EventDepRev2.button1,Continuar
+EventDepRev3.text,Coloque o marcador de avistamento como indicado.
+EventDepRev3.button1,Continuar
+EventDepRev4.text,Coloque os marcadores de avistamento como indicado.
+EventDepRev4.button1,Continuar
+EventDepositoExplo0.button1,Continuar
+EventDepositoExplo0.text,Um deposito grande jaz próximo ao lago central. Coloque o Tile {c:TileDeposito} e o marcador de exploração como indicado.
+Event2SPAExplorar1var.text,Parece que alguns objetos foram separados e deixados em cima da poltrona. Coloque um marcador de procura como indicado.
+Event2SPAExplorar1var.button1,Continuar
+TokenMateriasEnzo.text,Papéis dobrados foram deixados em cima de uma poltrona.
+TokenMateriasEnzo.button1,{action} Examinar
+EventMateriasEnzo.text,Você examina os papéis que foram deixados de lado, eles foram arrancados de algum arquivo. As páginas a sua frente, reportam sobre fatos antigos de desaparecimento da cidade.\nSegundo os recortes, Thomas e o prefeito Robert estão sendo parabenizados pelos moradores de Safira após a conclusão do caso de uma menina chamada Helena Whitebell, ex namorada de Thomas.\nUm fato estranho, é que a menina não aparece na foto, apenas os dois primos.\nReceba o item especial Evidencia Fotografica e remova este marcador de procura.
+EventMateriasEnzo.button1,Continuar
+EventEnzoSPAteste.text,Provavelmente foi Enzo quem separou estes objetos. Você tenta pegá-los sem que ele perceba. Teste {agility}.
+EventEnzoSPAteste.button1,Continuar
+EventEnzoSPAteste.button2,Continuar
+EventEnzoSPAfalha.text,Ao pegar os papéis, você sente alguém os tirando de suas mãos rapidamente:\n''Hey, isso me pertence. Se têm alguma dúvida ainda, é só perguntar está bem? Melhor conversarmos em um outro momento.''\n\nEnzo se despede e saí da Sala de Leitura. Remova o marcador de procura e o de pessoa do tabuleiro.
+EventEnzoSPAfalha.button1,Continuar
+EventAvistamentoLagoLojarevelada.text,A faixada de uma loja de artigos valiosos é vista do outro lado da rua. Coloque o Tile {c:TileLojaCentro} como indicado.
+EventAvistamentoLagoLojarevelada.button1,Continuar
+EventCrimeArmaDetetive2.text,ATENÇÃO. Este item PODE ser usado pelo Investigador que o possui. Mas encontrá-lo aqui pode ser uma pista sobre a investigação do caso Thomas.
+EventLatadelixoEnzo.text,Junto com os restos há papéis espalhados pela rua, você procura por algo relevante. Teste {observation}.
+EventLatadelixoEnzo.button1,Continuar
+EventLatadelixoEnzo.button2,Continuar
+EventLixoFalha.button1,Continuar
+EventLixoSucesso.text,Na lixeira do restaurante, você encontra uma arma que foi descartada por aqui.\n\nReceba o item comum Revolver 38. e em seguida, descarte este marcador de procura.
+EventLixoFalha.text,Parece que aqui você não vai encontrar nada que o ajude na investigação.
+EventLixoSucesso.button1,Continuar
+Eventmito28Thomas3.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nSeus olhos, assim como seus braços translucidos estão em chamas ardentes. Elas queimam intensamente consumindo o pouco que resta de seu corpo.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+EventFinalRuim.text,Em um instante, após expulsar o fantasma de Thomas Nilmann, as energias em volta da sala se dissipam e a mansão volta ao normal. Todos aflitos, se recompoem aos poucos e fogem desse local assombrado de uma vez por todas.\nVocê não conseguiu descobrir o assassino de Thomas Nilmann, muito menos proteger pessoas inocentes da sua vingança. Como um alento, a cidade de Safira deve estar protegida agora contra a fúria das almas daqueles que já se foram. A investigação foi parcialmente concluída.
+EventFinalRuim.button1,Continuar
+UIFIM.button1,Continuar
+UIFIM.uitext,FIM
+UITextoFinalTerrivel.uitext,Incapaz de resolver o caso e de proteger\nas pessoas da cidade, você parte da mansão\ncom o sentimento de derrota. Os moradores\njamais saberão as coisas terríveis que\naconteceram neste último dia.\n\nOs mistérios de Safira ainda não foram resolvidos,\ne as almas deste lugar, não receberam o seu devido descanso.\nAlgo pesa em sua consciência e te faz lamentar\npor ter sido tão incapaz.\n\nDas vítimas de hoje, você tem a certeza de\nque muitas voltarão para te assolar,\nacusando o seu fracasso e expondo a sua vergonha.\n\nVocê traçou o destino de sua vida miserável,\ne cabe agora, viver sofrendo as suas\nconsequências.\n
+EventFIM.text,fim
+EventFIM.button1,Continuar
+EventInicio3D.button1,Continuar
+EventInicio3D.text,Os principais suspeitos que o prefeito revelou a vocês são:\nJennifer, que era namorada da vítima.\nLeonidas, o detetive da cidade.\nEnzo Alberto, um turista que chegou recentemente.\nOs membros da familia Stones, que são:\nFranklim, o pai\nAndy, a mãe\nWilliam, o filho.
+Event2CorredorConvites.text,Você pega uma série de convites para a cerimonia de hoje. Em um deles, você nota que estava destinado ao Thomas. A data deste convite foi escrita antes do seu desaparecimento.\nReceba 1 Pista e descarte o marcador de procura.
+EventVendedorC2.text,''Na verdade este objeto parece ser uma cópia de um colar antigo. As gravações que foram feitas nesta peça estão bem ruins, com toda certeza não possuem valor algum.''\n\nReceba 1 pista.
+EventVendedorC1.button1,Continuar
+EventVendedorC2.button1,Continuar
+EventVendedorC1.text,''Esta peça é rarissima, devia tomar cuidado. Um colar com poderes mágicos pode despertar o interesse de muitas pessoas malignas. Qualquer apreciador de antiguidades saberia discernir as runas poderosas deste objeto.''
+EventVendedorC.button2,Cancelar
+EventSPAEnzoRestaurante.text,Ao juntar o bilhete do chão, você vê que é um ticket de alimentação.\nReceba o item Evidência Conclusiva e remova o marcador de procura.
+EventSPAEnzoRestaurante.button1,Continuar
+EventACUSARRobertA1.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ela fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nRobert tenta se debater, mas não consegue se soltar... então você continua:\n\n''Robert precisava se livrar da única pessoa que realmente sabia tudo sobre ele. Thomas era usado para manipular as noticias conforme o vosso prefeito desejava.\nCom o Detetive Leonidas por perto, ele precisava criar um fato novo para despistar os moradores e parecer intressado em resolver este caso. Pois bem, não passou de uma distração. Com as provas que encontramos, ficou claro que Robert Nilmann é o culpado pelo desaparecimento da vítima.''
+EventACUSARRobertA1.button1,Continuar
+EventAcusarEnzoA.text,''Antes de revelarmos o verdadeiro culpado, precisamos trazer a conhecimento de todos algumas informações. Durante o caso, descobrimos da pior forma de que Thomas Nilmann realmente está morto.''\n\nA sua notícia deixa todos os convidados arrasados, alguns choram, outros nem acreditam, mas tendo a palavra você complementa a delação:\n\n''As evidencias que encontramos foram todas analisadas. No final de tudo, o grupo de Investigadores chegou a conclusão de que o culpado pela morte de Thomas Nilmann foi o Enzo Alberto!''
+EventLerDiarioAnigoB.text,Em meio as últimas páginas deste diário, você encontra um bilhete com suas letras bastante apagadas. Analisando supericialmente já se percebe que trata-se de uma passagem de vinda para Safira.\nO ticket está com manchas antigas em tons de vermelho, te impossibilitando de descobrir se poderia ser sangue ou apenas a marca de um batom.\nReceba o item Especial Passagem.
+EventLerDiarioAnigoB.button1,Continuar
+EventEnzoA.button2,Cancelar
+EventEnzoB.button2,Cancelar
+EventVendedor0.text,''Preciso atender os clientes agora...''
+EventCaixasObjetosAntigosA.text,Você tenta forçar a tampa para abrí-la. Teste {strength} (Acrescente 1 acerto automático se estiver com o Item Pé de Cabra).
+EventCaixasExplorar.text,A silhueta de um homem se revela conforme você avança. Coloque o marcador de pessoa como indicado. Este é o detetive Leonidas, um de seus suspeitos.
+EventCaixasExplorar.button1,Continuar
+EventCaixasExplorar1.text,Algo brilha entre as caixas empilhadas. Coloque o marcador e procura como indicado.
+EventCaixasExplorar1.button1,Continuar
+EventCaixasExplorar2.button1,Continuar
+EventVendedorA1.text,''Estas antiguidades são unicas. Vendemos aqui todo tipo de objeto que foram de familias importantes ao longo da história. Em sua maioria, são relíquias com o objetivo de trazer proteção e boa sorte aos seus donos.''
+EventCaixasExplorar2.text,Uma caixa reforçada parece ter sido escondida atrás de outras maiores. Coloque o marcador de procura como indicado.
+SpawnHorrorDoCacador.text,Uma serpente marinha aparece rugindo como se estivesse sendo ferida por alguma dor. Faça aparecer um Horror do Caçador no local indicado.
+EventLagoPredador.text,Com um movimento rápido você puxa uma espécie de criatura do fundo deste lago. Remova o marcador de procura do tabuleiro.
+EventLagoPredador.button1,Continuar
+Event2WilliamAsucesso.text,Entre uma jogada e outra, você consegue notar que as ações de William estão sendo receosas. É como se ele estivesse com medo de demonstrar alguma coisa na sua frente. \nReceba 1 pista.
+EventFrankConvites.text,O anfitrião Fanklin Stones, deixa o banheiro após o desentendido e se encontra no corredor olhando uma escrivaninha de canto. Coloque o marcador de pessoa como indicado.
+EventFrankConvites.button1,Continuar
+Token2FrankCorredor.button1,Continuar
+EventFrankConvitess.text,Franklin se encontra guardando uma série de convites que restaram sobre a escrivaninha.
+EventFrankConvitesA.text,''Parece que alguém está mechendo em nossas coisas por aqui. Deveria eu mesmo ter recebido todos os convidados e deixado claro algumas regras. Não quero que esta festa acabe mal.''
+EventFrankConvitess.button2,Cancelar
+EventFrankConvitesA.button1,Continuar
+EventFrankConvitesB.text,Ele recolhe todos os papéis da mesa:\n''Está tudo bem, espero que não aconteça novamente. Quero que esta festa seja recordada como motivo de celebração para todos o convidados aqui presentes.''\n\nRemova o macador de procura do tabuleiro.
+EventFrankConvitesB.button1,Continuar
+EventFrankConvitess.button1,{action} Desculpe pelo o ocorrido...
+EventFrankConvtes0.text,''Divirtam-se, a cerimônia está para começar.''
+EventFrankConvtes0.button1,Continuar
+EventEnzoparaoLago.text,Enzo Alberto se levanta do banco da estação e segue caminhando em direção ao lago do centro. Remova o marcador de pessoa do tabuleiro e coloque no local indicado.
+EventEnzoparaoLago.button1,Continuar
+EventRoupeiroW.text,Você abre a porta e encontra um livro vermelho sobre uma das divisórias. Esta enciclopédia, levanta um estudo minucioso sobre objetos mágicos, mais especificamente sobre amuletos de proteção.\nAlgumas frases estão grifadas e parece que mesmo após a morte, estes talismãs continuam a proteger o seu dono contra aqueles que o fizeram mal.\nSem tempo para estudar estas escritas, você vira as páginas rapidamente e encontra uma sequência de fotos destes amuletos que possuem todos um formato de cruz.\n\nReceba o item especial Evidência Fotográfica e em seguida descarte este marcador de procura.
+EventRoupeiroW.button1,Continuar
+Event2SPAExplorar3.text,Uma Biblia está aberta sobre uma mesinha ao canto. Coloque o item Comum Biblia do Rei James no local indicado.
+Event2SPAExplorar3.button1,Continuar
+Event2HallExplorar2.text,Alguns quadros fazem parte da decoração do local. Coloque o marcador de procura como indicado.
+Event2HallExplorar3.text,Algumas portas levam aos demais cômodos da mansão. Coloque os marcadores de exploração como indicado.
+TokenHallAmuleto.text,A mesinha no centro do Hall contém alguns objetos.
+TokenHallAmuleto.button1,{action} Examinar
+Event2HallExplorarNv.text,Alguns artefatos estão postos sobre a mesa de centro como se estivessem em uma exposição. Coloque o marcador de procura como indicado.
+Event2HallExplorarNv.button1,Continuar
+EventHallAmuleto.text,Entre eles, você encontra um amuleto conhecido. Receba o item comum Proteção Ancestral e em seguida descarte o marcador de procura.
+EventHallAmuleto.button1,Continuar
+TokenEscritorioMagia.text,Um livro histórico foi mantido aberto sobre a mesa.
+TokenEscritorioMagia.button1,{action} Ler
+EventEscritorioMagia.text,Entre as páginas de um livro comum, você encontra pequenos tomos escondidos, contendo simbolos místicos que você conhece.\nReceba o Feitiço Devastação e remova o marcador de procura.
+EventEscritorioMagia.button1,Continuar
+Event2AreaExplorar2.text,Coloque o marcador de exploração como indicado.
+Event2AreaExplorar4.button1,Continuar
+Event2AreaExplorar4.text,Um brilho metálico é emitido em meio as flores do jardim.\nColoque o marcador de procura como indicado.
+TokenJardimItem.text,Algo brilha entre as flores.
+TokenJardimItem.button1,{action} Inspecionar
+EventJardimItem.text,Parece que o jardineiro acabou deixando suas feramentas de trabalho aqui fora.\nReceba o item comum Pá e descarte o marcador de procura.
+EventJardimItem.button1,Continuar
+Event3pmito2Enxaqueca.text,{rnd:hero} se encolhe mesmo diante da luz mais fraca, sofrendo com uma dor de enxaqueca terrivel. ({strength}:2) Se passar, a enxaqueca é apenas uma distração a ser superada. Se falhar, sua cabeça pulsa entre as mãos fazendo com que perca o foco da missão. \nSofra 2 danos virados para baixo e fique Desnorteado(a).
+Event3pmito13Hora.button1,Continuar
+EventFotoDetJen.text,O reflexo vem de um clipe em forma de coração que está segurando uma foto. No retrato, você vê o detetive Leonidas e a Jennifer de mãos dadas em frente ao mar. A julgar pela aparência dos dois, esta captura não parece ser tão antiga.\nDe fato, em algum momento, estes dois tiveram uma relação afetiva.\n\nReceba o item especial Evidência Fotográfica, em seguida descarte este marcador de procura.
+EventFotoDetJen.button1,Continuar
+Event2CorredorExplorar.text,Você se depara com um corredor extenso. Coloque os Tiles {MAD20} Corredor 2 e {MAD20} Banheiro como indicado, em seguida substitua o marcador de exploração pelo marcador de porta que leva até a Sala.
+Event2CorredorExpo2.text,Coloque os marcadores de exploração como indicado, em seguida, coloque o marcador de avistamento como indicado.
+Event2CorredorExplorar2.text,Coloque os marcadores de exploração como indicado, em seguida, coloque o marcador de avistamento como indicado.
+EventAvistamentoMansaoC.text,Você olha pela janela e vê o patio nos fundos da mansão. Entre as árvores do jardim, o detetive Leonidas caminha ansiosamente em direção a uma área proximo da casa.\nEle senta em uma cadeira no deck e acende um cigarro para fumar.\nMantenha o marcador de avistamento aqui, a janela ainda está fixa, um Investigador não pode usar pontos de movimento para passar através deste espaço.
+EventAvistamentoMansaoC.button1,Continuar
+EventCaixaEnigmaticaResolvidaF.text,Você consegue destrancar as travas da caixa e encontra um objeto que estava guardado. Receba o Item especial Selo do Culto. Ao tempo que você guarda consigo, vozes te invadem com tons de ameaça, isto não é um bom presságio. Sofra 2 horrores voltados para baixo negados por {will}.\nO Investigador que estiver com o Item Selo do Culto pode interagir com ele usando o aplicativo.
+EventCaixaEnigmaticaResolvidaW.button1,Continuar
+EventCaixaEnigmaticaResolvidaED.text,Você consegue destrancar as travas da caixa e encontra um livro que estava guardado. \nEsta enciclopédia, levanta um estudo minucioso sobre objetos mágicos, especificamente sobre amuletos de proteção.\nSem tempo para estudar estas escritas, você vira as páginas rapidamente e encontra uma sequência de fotos destes talismãs, todos eles, em um formato de cruz.\n\nReceba o item especial Evidencia Incriminadora e receba 1 pista.
+EventCaixaEnigmaticaResolvidaED.button1,Continuar
+Event3pmito12Lampadas.text,{rnd:hero} esta lendo alguns papeis que encontrou pela mansão, tentando encontrar algumas pistas. De repente, as luzes se apagam e pode-se ouvir as lampadas quebrando uma após a outra sequencialmente. Coloque marcadores de escuridão em todos os espaços do seu comodo e sofra 2 Horror, negado por {lore}.
+Event3pmito13Fantasma.button1,Continuar
+Event3pmito13Hora.text,A hora está avançada. Você sente uma angustia quando pergunta a si mesmo se irá conseguir solucionar este caso. Cada Investigador sofre 1 Horror negado por {will}.
+Event3pmito16Thomas1.button1,Continuar
+Event3pmito17VisaoTurva.text,A visão a sua frente se torna turva e cada vez que você esfrega os seus olhos parece piorar. A presença do mal cresceu muito dentro deste lugar desde o momento que você chegou, não resta mais tempo. Cada Investigador sofre 2 Horrores, negados por {will}
+Event3pmito16Thomas2.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nApesar de translucido, da para ver o seu corpo todo dilacerado e cheio de cortes, parte por parte.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+Event3pmito16Thomas1.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nApesar de translucido, da para ver o buraco em sua cabeça, como se tivesse sido atingido por um tiro de revolver.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+Event3pmito16Thomas2.button1,Continuar
+Event3pmito16Thomas3.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nSeus olhos, assim como seus braços translucidos estão em chamas ardentes. Elas queimam intensamente consumindo o pouco que resta de seu corpo.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+Event3pmito16Thomas3.button1,Continuar
+Event3pmito16Thomas4.text,{rnd:hero} se encontra flutuando em um vazio infinito, onde tudo que enxerga a sua frente é escuridão. Ouvindo um lamento, sua pele se arrepia da cabeça aos pés, sentindo um ar gelado circulando ao seu redor.\nConforme o som ecoa, você é capaz de interpretar as palavras do sussurro e elas pedem por socorro. Diante dos seus olhos, uma forma fantasmagórica começa a se formar pouco a pouco até que em sua frente, está a imagem de Thomas Nilmann.\nApesar de translucido, da para ver uma palavra escrita em sua testa: VINGANÇA.\nVocê não consegue dialogar ou interrogar, apenas sentir medo e ouvir o seu choro.\n\nSofra 1 Horror.
+Event3pmito16Thomas4.button1,Continuar
+Event3pmito18Andy.text,Com um movimento inesperado, o fantasma de Thomas se aproxima rapidamente de Andy Stones. Ela grita em desespero enquanto é paralizada pelo medo. Em seguida, sua garganta é cortada rapidamente a levando para morte.\nRemova o marcador de pessoa do tabuleiro.
+Event3pmito18Andy.button1,Continuar
+Event3pmito19Jennifer.text,Jennifer tenta correr até uma porta tentando fugir do desespero em que se encontra. Ao olhar para trás, ela percebe Thomas Nilmann se aproximar com um sorriso perturbador em seu rosto.\nSem pensar, ela se joga contra a energia negra que está formada atrás das saídas e ve seu corpo ser consumido pela magia do além.\n\nRemova o marcador de pessoa do tabuleiro. Jennifer está morta.
+Event3pmito19Jennifer.button1,Continuar
+Event3pmito20Robert.text,Exaustos, vocês não conseguem mais enfrentar o inimigo.\nRobert chora ajoelhado com uma expressão de pavor, implorando pela morte. Thomas se aproxima calmamente do seu primo e sorri novamente. Em uma atitude de misericórdia, ele realiza o ultimo desejo do seu parente.\nSua forma translúcida atravessa o corpo do prefeito e o mesmo começa a brilhar, tão forte que cega as suas vistas por um instante. Logo, ao som de uma grande explosão, tudo se dissipa em sua frente, inclusive a magia negra que trancava a sua saída desta mansão.
+Event3pmito20Robert.button1,Continuar
+Event2AreaExplorar.text,Abaixo dos quartos do segundo andar, um living se estende até o fundo do pátio. Coloque os tiles {MAD20} Quintal 1 e {MAD20} Estufa como indicado.
+Event2pFogoMansao.text,Algum Investigador está sobre um espaço na Sala de Bilhar?
+Event2pFogoMansao.button1,Sim
+Event2pFogoMansao.button2,Não
+Event2pFogoMansaoB.text,Subtamente, chamas começam a se espalhar pela Sala de Bilhar. Enquanto William se afasta pasmo, Franklin se aproxima para tentar apagá-las.\nColoque fogo no local indicado.
+Event2pFogoMansaoB.button1,Continuar
+Event2pFogoMansaoA.text,Durante a partida de bilhar, Franklin muda a sua posição para desferir mais uma tacada. Após concluída com êxito, ele pega um objeto quadrado que estava sobre a mesa ao lado de William e guarda no seu bolso:\n\n''Nada mal, não é mesmo Investigador?''\nDiz Franklin.
+Event2pFogoMansaoA.button1,Continuar
+TokenFrankBilhar2.button1,Continuar
+EventFranklinFogo.text,''Me desculpem, caíram alguns restos de cinzas inesperadamente, devo tomar mais cuidado. Fiquem tranquilos e aproveitem a festa, lhes garanto que não acontecerá novamente.''
+EventFranklinFogo.button1,Continuar
+EventWilliamFogoA.button1,Continuar
+TokenWiliamBilhar2.button1,Continuar
+EventApagarFogo.text,Franklin Stones consegue se aproximar rapidamente das chamas e com a ajuda de um extintor de incêndios ele as apaga rapidamente.\nRemova todos os marcadores de fogo.
+EventApagarFogo.button1,Continuar
+Event3pFogoMansao.button1,Sim
+Event3pFogoMansao.button2,Não
+Event3pFogoMansao.text,Algum Investigador está sobre um espaço na Sala de Bilhar?
+EventWilliamFogoB.text,Após as chamas serem apagadas, o jovem mantem seu olhar distante mas com uma expressão triste em seu rosto.
+EventWilliamFogoA.text,O jovem olha fixo para o fogo com um semblante amedrontado e de satisfação. Ele não te olha e não profere palavra alguma.
+EventWilliamFogoB.button1,Continuar
+EventColarDialogo.text,Este evento afeta o jogador que estiver com o item Cruz Sagrada.
+EventColarDialogo.button1,Continuar
+EventColarDialogo1.text,Por um instante, o colar que você encontrou começa a brilhar intensamente em sua mão, tornando-se quente, como um ferro em brasas.\nVocê se assusta e o deixa cair involuntariamente, enquanto uma sensação estranha toma conta de todo seu corpo.\nÉ como se este objeto estivesse te ameaçando e, por algum momento, você consegue ouvir vozes roucas e graves, proferindo sons terríveis e palavras incompriensíveis.\n\nSofra 1 Dano voltado para baixo e 1 Horror.
+EventColarDialogo1.button1,Continuar
+UITextoEliminado.uitext,Ao aceitarem o caso de Thomas Nilmann,\nseu grupo fez um pacto. Todos deveriam\nentrar e sair juntos desta missão.\n\nA perda de um dos companheiros torna \nimpossível manter o foco e o \nempenho em resolver este mistério.\n\nJá em sua casa, as memórias retornam \npara lhe assombrar durante os dias que\nse passam e você tem a certeza de que\nnada mais será como antes.\n\nOs acontecimentos na cidade de Safira\nirão lhe atormentar pelo resto de \nsua vida fracassada enquanto ela existir.
+EventAcusarJenniferA2.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam a suspeita impedindo que ela fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nJennifer tenta se debater, mas não consegue se soltar... então você continua:\n\n''Jennifer possuía uma relação fragil com Thomas, ela nunca esqueceu de seu passado com o detetive Leonidas, que insistia viementemente para que eles voltassem a ficar juntos.\nEla nunca confiou o suficiente em seu namorado e este foi o principal motivo para ela assassinar ele.''
+EventAcusarJenniferA2.button1,Continuar
+EventAcusarAndyA3.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam a suspeita impedindo que ela fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nAndy tenta se debater, mas não consegue se soltar... então você continua:\n\n''Andy nunca deixou de ser apaixonada por Thomas, mesmo quando acabaram sua relação ainda na juventude. É uma atitude totalmente incompriensivel, mas ela assassinou o seu amigo de infância.''
+EventAcusarAndyA3.button1,Continuar
+EventAcusarLeonidasA2.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nLeonidas tenta se debater, mas não consegue se soltar... então você continua:\n\n''Leonidas nunca foi um profissional estável, por isso o Prefeito da cidade o afastou do caso. Conseguimos identificar que foi um crime passional pelo fato do colar de Thomas ter sido deixado para trás bem próximo da cena do crime. O sujeito que o matou, não estava atrás de seus pertences.\nPor fim, a relação entre Jennifer e Thomas, nunca foi aceita pelo detetive, que vivia embriagado e insistindo para que ela terminasse com ele.''
+EventAcusarLeonidasA2.button1,Continuar
+EventAcusarLeonidasA3.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nLeonidas tenta se debater, mas não consegue se soltar... então você continua:\n\n''Leonidas nunca foi um profissional estável, por isso o Prefeito da cidade o afastou do caso. Conseguimos identificar que foi um crime passional pelo fato do colar de Thomas ter sido deixado para trás. O sujeito que o matou, não estava atrás de seus pertences. Como um detetive experiente, ele mesmo tentou implantar pistas falsas aqui na mansão dos Stones para nos enganar. \nPor fim, a relação entre Jennifer e Thomas, nunca foi aceita pelo detetive, que vivia embriagado e insistindo para que ela terminasse com ele.''
+EventAcusarLeonidasA3.button1,Continuar
+EventAcusarLeonidasA4.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nLeonidas tenta se debater, mas não consegue se soltar... então você continua:\n\n''Leonidas nunca foi um profissional estável, por isso o Prefeito da cidade o afastou do caso. Conseguimos identificar que foi um crime passional devido a relação entre Jennifer e Thomas, que nunca foi aceita pelo detetive. Certamente, a sua rotina de embriaguez o fez tomar esta atitude totalmente inesperada.''
+EventAcusarLeonidasA4.button1,Continuar
+EventEnzoA.text,O homem continua sentado a sua frente.
+EventEnzoB.text,O homem continua sentado a sua frente.
+EventAcusarEnzoA3.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nEnzo tenta se debater, mas não consegue se soltar... então você continua:\n\n''Enzo Alberto decidiu se estabelecer aqui em Safira por um tempo propositalmente. Ele tem investigado o caso em paralelo, procurando saber o verdadeiro culpado pelo desaparecimento de sua irmã mais nova, Helena Whitebell. Sua primeira reação, foi eliminar o ex-namorado dela por vingança, que era justamente a pessoa que manipulava as noticias locais e mentiu sobre tê-la encontrado. O assassino sempre acaba voltando até a cena do crime e com Enzo, não foi diferente.\nEle ainda permaneceu na cidade buscando alguma forma de punir todos os outros envolvidos.''
+EventAcusarEnzoA3.button1,Continuar
+EventAcusarEnzoA4.text,Neste instante, as autoridades locais entram pela porta do corredor e imobilizam o suspeito impedindo que ele fuja.\n\n''PAREM! Vocês estão errados, isso é um grande engano, SOCORRO!!''\n\nEnzo tenta se debater, mas não consegue se soltar... então você continua:\n\n''Enzo Alberto decidiu se estabelecer aqui em Safira por um tempo propositalmente. Ele tem investigado o caso em paralelo, buscando vingança por alguma vítima conhecida de desaparecimento na cidade que não foi procurada. O assassino sempre acaba voltando até a cena do crime e com Enzo, não foi diferente.\nEle ainda permaneceu na cidade buscando alguma forma de punir todos os outros envolvidos.''
+EventAcusarEnzoA4.button1,Continuar
+Event2WilliamA1.text,O jovem não fala nada, continua apenas jogando sinuca evitando contato com você. Teste {observation}.
+EventDetetiveABC.button2,{action} O que está fazendo aqui?
+Event2CorredorExplorar4.text,Em cima de uma escrivaninha tem diversos papeis espalhados. Coloque o marcador de procura como indicado.
+EventEnzoA.button1,{action} O que veio fazer na cidade?
+EventEnzoB.button1,{action} Você conhecia Thomas Nilmann?
+EventEsquerdaRevelar1A.text,A esquina de uma rua termina com a fachada de um restaurante. Coloque os tiles {c:TileRestaurante}, {c:TileRuaEsquerda} e {c:TileEsquinaEsquerda} como indicado.
+EventEsquerdaRevelar1A.button1,Continuar
+EventEsquerdaRevelar2A.text,A faixada de uma loja de artigos antigos é vista do outro lado da rua. Coloque o Tile {c:TileLojaCentro} como indicado.
+EventEsquerdaRevelar2A.button1,Continuar
+EventLojaCentroRevelarEsqrd.text,A faixada de uma loja de artigos valiosos é vista do outro lado da rua. Coloque o Tile {c:TileLojaCentro} como indicado.
+EventLojaCentroRevelarEsqrd.button1,Continuar
+EventDireitapraLoja.text,A faixada de uma loja de artigos valiosos é vista do outro lado da rua. Coloque o Tile {c:TileLojaCentro} como indicado.
+EventDireitapraLoja.button1,Continuar
+Event3pmito8Urro.button1,Continuar
